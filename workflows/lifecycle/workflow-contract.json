@@ -1,0 +1,31 @@
+{
+  "id": "lifecycle-evidence-first",
+  "version": "1.0.0",
+  "status": "implemented",
+  "purpose": "Compose reusable skills into a resumable, evidence-first lifecycle.",
+  "stages": [
+    "discover",
+    "recover-context",
+    "research",
+    "requirements",
+    "design",
+    "implement",
+    "verify",
+    "document",
+    "release",
+    "maintain"
+  ],
+  "rules": {
+    "failClosedOnUnknownProject": true,
+    "requireDependencyOrder": true,
+    "requireApprovalForExecution": true,
+    "recordSkippedChecks": true,
+    "allowAutomaticRetries": false
+  },
+  "outputs": [
+    "project-context",
+    "decision-record",
+    "validation-evidence",
+    "handover"
+  ]
+}

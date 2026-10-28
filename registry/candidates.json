@@ -1,0 +1,642 @@
+[
+  {
+    "id": "01",
+    "name": "Global Skills Framework",
+    "skillId": "global-skills-framework",
+    "status": "mapped",
+    "canonicalPath": "skills/Skill - 007 - Global Skills Framework/SKILL.md",
+    "sourceMapping": "| 01 | Global Skills Framework | partial | Traceability row 01: global-system skill, authoring guide, validator | `skills/47-ai-agent-skills-tool-governance/SKILL.md`; `enterprise-ui-fullstack-skills/.github/skills/skills-validation-versioning-and-release/SKILL.md`; `enterprise-ui-fullstack-skills/schemas/skill-metadata.schema.json` | Reconcile lifecycle, schema compatibility, and tested cross-platform conformance. |"
+  },
+  {
+    "id": "02",
+    "name": "Global Development Rules",
+    "skillId": "global-development-rules",
+    "status": "mapped",
+    "canonicalPath": "skills/Skill - 006 - Global Development Rules/SKILL.md",
+    "sourceMapping": "| 02 | Global Development Rules | partial | Traceability row 02: `SECURITY.md`, `CONTRIBUTING.md`, `AUTHORING_GUIDE.md` | `skills/01-engineering-governance/SKILL.md`; `docs/sdlc/RISK_AND_APPROVAL_POLICY.md`; `orchestration/MASTER_ORCHESTRATOR.md` | Define precedence and project exceptions; policy text is not an enforcement mechanism. |"
+  },
+  {
+    "id": "03",
+    "name": "Project Registry",
+    "skillId": "project-registry",
+    "status": "mapped",
+    "canonicalPath": "skills/Skill - 013 - Project Registry/SKILL.md",
+    "sourceMapping": "| 03 | Project Registry | missing | Traceability row 03: no registry found | `skills/07-project-structure-manager/SKILL.md` is adjacent, not a registry | Define canonical identity, owner, access, freshness, and source-of-truth before creating a registry service. |"
+  },
+  {
+    "id": "04",
+    "name": "Project Context Analyzer",
+    "skillId": "project-context-analyzer",
+    "status": "mapped",
+    "canonicalPath": "skills/Skill - 011 - Project Context Analyzer/SKILL.md",
+    "sourceMapping": "| 04 | Project Context Analyzer | duplicate | Traceability row 04: `skills/project-discovery-audit/SKILL.md` | `skills/02-project-discovery-audit/SKILL.md`; `enterprise-ui-fullstack-skills/.github/skills/project-discovery-and-design-audit/SKILL.md` | Compare overlapping discovery contracts; unify evidence/freshness model and keep design-specific adapters. |"
+  },
+  {
+    "id": "05",
+    "name": "Project Memory & Handover",
+    "skillId": "project-memory-and-handover",
+    "status": "mapped",
+    "canonicalPath": "skills/Skill - 012 - Project Memory & Handover/SKILL.md",
+    "sourceMapping": "| 05 | Project Memory & Handover | indirect | Traceability row 05: global-system stage guidance | `enterprise-ui-fullstack-skills/.github/skills/project-continuity-and-change-impact-management/SKILL.md`; `orchestration/WORKFLOW_PATTERNS.md` | Add authorized durable project state, privacy boundaries, and verified resume procedure. |"
+  },
+  {
+    "id": "06",
+    "name": "Evidence & Status Engine",
+    "skillId": "evidence-and-status-engine",
+    "status": "mapped",
+    "canonicalPath": "skills/Skill - 005 - Evidence & Status Engine/SKILL.md",
+    "sourceMapping": "| 06 | Evidence & Status Engine | partial | Traceability row 06: global-system and SDLC status guidance | `skills/05-project-planning-traceability/SKILL.md`; `templates/sdlc/LIFECYCLE_AND_TRACEABILITY_TEMPLATE.md` | Standardize provenance, freshness, status transitions, and evidence retention; no engine is verified. |"
+  },
+  {
+    "id": "07",
+    "name": "Existing Project Recovery",
+    "skillId": "existing-project-recovery",
+    "status": "mapped",
+    "canonicalPath": "skills/Skill - 022 - Existing Project Recovery/SKILL.md",
+    "sourceMapping": "| 07 | Existing Project Recovery | partial | Traceability row 07: discovery and diagnostic/RCA skills | `skills/02-project-discovery-audit/SKILL.md`; `skills/35-reliability-fault-recovery/SKILL.md`; `skills/38-incident-response-root-cause/SKILL.md` | Compose a recovery workflow with preservation checkpoints, exit criteria, and handover. |"
+  },
+  {
+    "id": "08",
+    "name": "Reverse Engineering & Code Archaeology",
+    "skillId": "reverse-engineering-and-code-archaeology",
+    "status": "mapped",
+    "canonicalPath": "skills/Skill - 025 - Reverse Engineering & Code Archaeology/SKILL.md",
+    "sourceMapping": "| 08 | Reverse Engineering & Code Archaeology | partial | Traceability row 08: discovery and architecture skills | `skills/02-project-discovery-audit/SKILL.md`; `skills/06-architecture-design/SKILL.md`; `enterprise-ui-fullstack-skills/.github/skills/architecture-diagram-and-flow-documentation/SKILL.md` | Add static/dynamic tracing, evidence confidence, unknown tracking, and as-built outputs. |"
+  },
+  {
+    "id": "09",
+    "name": "Runtime Behavior Verification",
+    "skillId": "runtime-behavior-verification",
+    "status": "mapped",
+    "canonicalPath": "skills/Skill - 026 - Runtime Behavior Verification/SKILL.md",
+    "sourceMapping": "| 09 | Runtime Behavior Verification | duplicate | Traceability row 09: focused, functional, and automation testing skills | `skills/30-api-database-integration-testing/SKILL.md`; `enterprise-ui-fullstack-skills/.github/skills/backend-integration-and-api-testing/SKILL.md`; `enterprise-ui-fullstack-skills/.github/skills/frontend-testing-and-visual-regression/SKILL.md` | Define one expected-vs-observed evidence record and boundaries across API/UI/runtime tests. |"
+  },
+  {
+    "id": "10",
+    "name": "Requirements Reconstruction",
+    "skillId": "requirements-reconstruction",
+    "status": "mapped",
+    "canonicalPath": "skills/Skill - 024 - Requirements Reconstruction/SKILL.md",
+    "sourceMapping": "| 10 | Requirements Reconstruction | duplicate | Traceability row 10: SDLC planning/traceability skill | `skills/03-requirements-engineering/SKILL.md`; `enterprise-ui-fullstack-skills/.github/skills/requirements-and-user-journey-engineering/SKILL.md` | Separate requirements recovery from new requirements authoring; preserve inference provenance. |"
+  },
+  {
+    "id": "11",
+    "name": "Architecture & Diagram Reconstruction",
+    "skillId": "architecture-and-diagram-reconstruction",
+    "status": "mapped",
+    "canonicalPath": "skills/Skill - 019 - Architecture & Diagram Reconstruction/SKILL.md",
+    "sourceMapping": "| 11 | Architecture & Diagram Reconstruction | duplicate | Traceability row 11: architecture and documentation skills | `skills/06-architecture-design/SKILL.md`; `enterprise-ui-fullstack-skills/.github/skills/architecture-diagram-and-flow-documentation/SKILL.md` | Define reverse mapping from code to diagrams and diagram consistency validation. |"
+  },
+  {
+    "id": "12",
+    "name": "UI/UX Recovery",
+    "skillId": "ui-ux-recovery",
+    "status": "mapped",
+    "canonicalPath": "skills/Skill - 027 - UI UX Recovery/SKILL.md",
+    "sourceMapping": "| 12 | UI/UX Recovery | duplicate | Traceability row 12: frontend and functional-testing skills | `skills/21-ui-ux-research-design/SKILL.md`; `enterprise-ui-fullstack-skills/.github/skills/ui-ux-research-and-information-architecture/SKILL.md`; `enterprise-ui-fullstack-skills/.github/skills/project-discovery-and-design-audit/SKILL.md` | Consolidate the recovery workflow while retaining research, accessibility, and platform-specific specialists. |"
+  },
+  {
+    "id": "13",
+    "name": "Documentation Recovery",
+    "skillId": "documentation-recovery",
+    "status": "mapped",
+    "canonicalPath": "skills/Skill - 021 - Documentation Recovery/SKILL.md",
+    "sourceMapping": "| 13 | Documentation Recovery | duplicate | Traceability row 13: documentation engineering | `skills/44-documentation-knowledge-management/SKILL.md`; `enterprise-ui-fullstack-skills/.github/skills/project-documentation-and-readme-engineering/SKILL.md` | Add fragmented-doc inventory, provenance, confidence, and completeness checks; preserve separate project adapters. |"
+  },
+  {
+    "id": "14",
+    "name": "As-Built Consistency Auditor",
+    "skillId": "as-built-consistency-auditor",
+    "status": "mapped",
+    "canonicalPath": "skills/Skill - 020 - As-Built Consistency Auditor/SKILL.md",
+    "sourceMapping": "| 14 | As-Built Consistency Auditor | partial | Traceability row 14: discovery and documentation skills | `skills/02-project-discovery-audit/SKILL.md`; `enterprise-ui-fullstack-skills/.github/skills/project-discovery-and-design-audit/SKILL.md` | Compose cross-source discrepancy tracking, severity, trace links, and closure evidence. |"
+  },
+  {
+    "id": "15",
+    "name": "Lifecycle Gap Analyzer",
+    "skillId": "lifecycle-gap-analyzer",
+    "status": "mapped",
+    "canonicalPath": "skills/Skill - 023 - Lifecycle Gap Analyzer/SKILL.md",
+    "sourceMapping": "| 15 | Lifecycle Gap Analyzer | duplicate | Traceability row 15: SDLC planning/governance | `skills/04-sdlc-lifecycle-manager/SKILL.md`; `enterprise-ui-fullstack-skills/.github/skills/sdlc-and-design-gate-manager/SKILL.md`; `docs/sdlc/STAGE_GATES.md` | Reconcile lifecycle and gate checklists; define evidence-based completeness criteria. |"
+  },
+  {
+    "id": "16",
+    "name": "Real-World Problem Analyst",
+    "skillId": "real-world-problem-analyst",
+    "status": "mapped",
+    "canonicalPath": "skills/Skill - 031 - Real-World Problem Analyst/SKILL.md",
+    "sourceMapping": "| 16 | Real-World Problem Analyst | missing | Traceability row 16: no direct skill | `skills/03-requirements-engineering/SKILL.md` is adjacent only | Define user/problem evidence, value measures, falsification, and uncertainty before proposing a distinct skill. |"
+  },
+  {
+    "id": "17",
+    "name": "Technical Research Agent",
+    "skillId": "technical-research-agent",
+    "status": "mapped",
+    "canonicalPath": "skills/Skill - 035 - Technical Research Agent/SKILL.md",
+    "sourceMapping": "| 17 | Technical Research Agent | indirect | Traceability row 17: no direct research skill | `skills/45-technology-watch-dependency-updates/SKILL.md` | Extend source-quality, citation, date/version, alternatives, and uncertainty requirements; dependency watch alone is not research. |"
+  },
+  {
+    "id": "18",
+    "name": "Existing Solution & Duplicate Work Detector",
+    "skillId": "existing-solution-and-duplicate-work-detector",
+    "status": "mapped",
+    "canonicalPath": "skills/Skill - 028 - Existing Solution & Duplicate Work Detector/SKILL.md",
+    "sourceMapping": "| 18 | Existing Solution & Duplicate Work Detector | partial | Traceability row 18: discovery and token-efficiency skills | `skills/47-ai-agent-skills-tool-governance/SKILL.md`; `orchestration/SKILL_ROUTING.md` | Add bounded cross-project search and evidence-backed reuse decisions; maintain project privacy. |"
+  },
+  {
+    "id": "19",
+    "name": "Feasibility & Technology Evaluator",
+    "skillId": "feasibility-and-technology-evaluator",
+    "status": "mapped",
+    "canonicalPath": "skills/Skill - 029 - Feasibility & Technology Evaluator/SKILL.md",
+    "sourceMapping": "| 19 | Feasibility & Technology Evaluator | indirect | Traceability row 19: architecture and discovery skills | `skills/06-architecture-design/SKILL.md`; `skills/16-implementation-planner/SKILL.md` | Define comparable criteria, cost/constraints, scoring, and uncertainty; avoid implying a dedicated evaluator exists. |"
+  },
+  {
+    "id": "20",
+    "name": "Requirements Engineering",
+    "skillId": "requirements-engineering",
+    "status": "mapped",
+    "canonicalPath": "skills/Skill - 032 - Requirements Engineering/SKILL.md",
+    "sourceMapping": "| 20 | Requirements Engineering | duplicate | Traceability row 20: SDLC planning/traceability | `skills/03-requirements-engineering/SKILL.md`; `enterprise-ui-fullstack-skills/.github/skills/requirements-and-user-journey-engineering/SKILL.md` | Reconcile two direct requirements skills and retain recovery/user-journey specializations as modules. |"
+  },
+  {
+    "id": "21",
+    "name": "Prompt Engineering Intelligence",
+    "skillId": "prompt-engineering-intelligence",
+    "status": "mapped",
+    "canonicalPath": "skills/Skill - 030 - Prompt Engineering Intelligence/SKILL.md",
+    "sourceMapping": "| 21 | Prompt Engineering Intelligence | duplicate | Traceability row 21: token-efficient and global-system skills | `skills/47-ai-agent-skills-tool-governance/SKILL.md`; `enterprise-ui-fullstack-skills/.github/skills/Skill - 017 - Token Efficient Agent Workflows/SKILL.md`; `enterprise-ui-fullstack-skills/orchestration/TOKEN_EFFICIENCY_POLICY.md` | Compare similar token/prompt guidance; define prompt evaluation separately from context efficiency. |"
+  },
+  {
+    "id": "22",
+    "name": "Roadmap & Project Planner",
+    "skillId": "roadmap-and-project-planner",
+    "status": "mapped",
+    "canonicalPath": "skills/Skill - 034 - Roadmap & Project Planner/SKILL.md",
+    "sourceMapping": "| 22 | Roadmap & Project Planner | duplicate | Traceability row 22: SDLC planning/governance | `skills/05-project-planning-traceability/SKILL.md`; `skills/16-implementation-planner/SKILL.md` | Separate roadmap, estimation, dependency critical path, and implementation planning with shared records. |"
+  },
+  {
+    "id": "23",
+    "name": "Risk & Dependency Analyzer",
+    "skillId": "risk-and-dependency-analyzer",
+    "status": "mapped",
+    "canonicalPath": "skills/Skill - 033 - Risk & Dependency Analyzer/SKILL.md",
+    "sourceMapping": "| 23 | Risk & Dependency Analyzer | duplicate | Traceability row 23: planning and architecture skills | `skills/10-integration-dependency-mapping/SKILL.md`; `orchestration/DEPENDENCY_GRAPH.md`; `docs/sdlc/RISK_AND_APPROVAL_POLICY.md` | Share risk/dependency IDs, owners, confidence, and mitigation lifecycle across separate analyses. |"
+  },
+  {
+    "id": "24",
+    "name": "User Approval & Decision Manager",
+    "skillId": "user-approval-and-decision-manager",
+    "status": "mapped",
+    "canonicalPath": "skills/Skill - 036 - User Approval & Decision Manager/SKILL.md",
+    "sourceMapping": "| 24 | User Approval & Decision Manager | partial | Traceability row 24: approval guidance and `SECURITY.md` | `skills/01-engineering-governance/SKILL.md`; `skills/Skill - 064 - Build Test Approval Gate/SKILL.md`; `docs/sdlc/RISK_AND_APPROVAL_POLICY.md` | Specify decision ledger, command/action scope, expiry, denial, and revocation; no controller is proven. |"
+  },
+  {
+    "id": "25",
+    "name": "Environment & Dependency Manager",
+    "skillId": "environment-and-dependency-manager",
+    "status": "mapped",
+    "canonicalPath": "skills/Skill - 048 - Environment & Dependency Manager/SKILL.md",
+    "sourceMapping": "| 25 | Environment & Dependency Manager | duplicate | Traceability row 25: discovery, DevOps, and database skills | `skills/11-environment-readiness/SKILL.md`; `skills/12-dependency-lifecycle-manager/SKILL.md`; `skills/13-configuration-secrets-manager/SKILL.md` | Separate environment readiness, dependency lifecycle, and secret/configuration management; share manifests. |"
+  },
+  {
+    "id": "26",
+    "name": "Architecture & Design Implementation",
+    "skillId": "architecture-and-design-implementation",
+    "status": "mapped",
+    "canonicalPath": "skills/Skill - 038 - Architecture & Design Implementation/SKILL.md",
+    "sourceMapping": "| 26 | Architecture & Design Implementation | indirect | Traceability row 26: architecture plus frontend/backend skills | `skills/06-architecture-design/SKILL.md`; `skills/Skill - 053 - Frontend Engineering/SKILL.md`; `skills/Skill - 039 - Backend Engineering/SKILL.md` | Compose approved-design traceability with implementation/review/test handoffs; no generic workflow is established. |"
+  },
+  {
+    "id": "27",
+    "name": "Development Standards Enforcer",
+    "skillId": "development-standards-enforcer",
+    "status": "mapped",
+    "canonicalPath": "skills/Skill - 047 - Development Standards Enforcer/SKILL.md",
+    "sourceMapping": "| 27 | Development Standards Enforcer | duplicate | Traceability row 27: clean-code and stack-specific skills | `skills/17-coding-standards/SKILL.md`; `skills/18-refactoring-maintenance/SKILL.md` | Unify repository standards discovery and exception evidence without conflating enforcement and refactoring. |"
+  },
+  {
+    "id": "28",
+    "name": "Feature Implementation Agent",
+    "skillId": "feature-implementation-agent",
+    "status": "mapped",
+    "canonicalPath": "skills/Skill - 049 - Feature Implementation Agent/SKILL.md",
+    "sourceMapping": "| 28 | Feature Implementation Agent | indirect | Traceability row 28: domain implementation skills; generic loop absent | `skills/16-implementation-planner/SKILL.md`; `skills/Skill - 053 - Frontend Engineering/SKILL.md`; `skills/Skill - 039 - Backend Engineering/SKILL.md` | Define generic acceptance-to-change workflow only if needed; delegate stack work to specialists. |"
+  },
+  {
+    "id": "29",
+    "name": "Bug Diagnosis & Repair Agent",
+    "skillId": "bug-diagnosis-and-repair-agent",
+    "status": "mapped",
+    "canonicalPath": "skills/Skill - 041 - Bug Diagnosis & Repair Agent/SKILL.md",
+    "sourceMapping": "| 29 | Bug Diagnosis & Repair Agent | duplicate | Traceability row 29: diagnostic/RCA skill | `skills/36-logging-error-diagnostics/SKILL.md`; `skills/38-incident-response-root-cause/SKILL.md`; `skills/18-refactoring-maintenance/SKILL.md` | Distinguish diagnosis from authorized repair; include impact analysis, regression evidence, and rollback. |"
+  },
+  {
+    "id": "30",
+    "name": "API & Database Specialist",
+    "skillId": "api-and-database-specialist",
+    "status": "mapped",
+    "canonicalPath": "skills/Skill - 037 - API & Database Specialist/SKILL.md",
+    "sourceMapping": "| 30 | API & Database Specialist | duplicate | Traceability row 30: API and database skills | `skills/08-api-contract-design/SKILL.md`; `skills/09-database-data-architecture/SKILL.md`; `enterprise-ui-fullstack-skills/.github/skills/rest-api-controller-and-contract-engineering/SKILL.md` | Preserve separate API/data ownership and add cross-layer transaction/compatibility contracts. |"
+  },
+  {
+    "id": "31",
+    "name": "Integration & Compatibility Engineer",
+    "skillId": "integration-and-compatibility-engineer",
+    "status": "mapped",
+    "canonicalPath": "skills/Skill - 057 - Integration & Compatibility Engineer/SKILL.md",
+    "sourceMapping": "| 31 | Integration & Compatibility Engineer | duplicate | Traceability row 31: test, architecture, and platform skills | `skills/10-integration-dependency-mapping/SKILL.md`; `skills/30-api-database-integration-testing/SKILL.md`; `skills/46-migration-upgrade-compatibility/SKILL.md` | Compose integration tests and compatibility analysis with explicit platform/version matrix. |"
+  },
+  {
+    "id": "32",
+    "name": "Code Review & Refactoring Agent",
+    "skillId": "code-review-and-refactoring-agent",
+    "status": "mapped",
+    "canonicalPath": "skills/Skill - 042 - Code Review & Refactoring Agent/SKILL.md",
+    "sourceMapping": "| 32 | Code Review & Refactoring Agent | duplicate | Traceability row 32: clean-code and security skills | `skills/18-refactoring-maintenance/SKILL.md`; `skills/19-code-review-quality-gate/SKILL.md`; `skills/20-technical-debt-management/SKILL.md` | Keep review-only outputs separate from approved refactoring; share severity/confidence/finding format. |"
+  },
+  {
+    "id": "33",
+    "name": "Requirements-to-Test Traceability",
+    "skillId": "requirements-to-test-traceability",
+    "status": "mapped",
+    "canonicalPath": "skills/Skill - 079 - Requirements-to-Test Traceability/SKILL.md",
+    "sourceMapping": "| 33 | Requirements-to-Test Traceability | partial | Traceability row 33: SDLC and QA skills | `skills/05-project-planning-traceability/SKILL.md`; `docs/sdlc/REQUIREMENTS_TRACEABILITY.md`; `templates/sdlc/LIFECYCLE_AND_TRACEABILITY_TEMPLATE.md` | Define bidirectional requirement/test/result IDs and freshness/update rules. |"
+  },
+  {
+    "id": "34",
+    "name": "Test Strategy Generator",
+    "skillId": "test-strategy-generator",
+    "status": "mapped",
+    "canonicalPath": "skills/Skill - 082 - Test Strategy Generator/SKILL.md",
+    "sourceMapping": "| 34 | Test Strategy Generator | duplicate | Traceability row 34: QA strategy skill | `skills/31-test-strategy-management/SKILL.md`; `docs/sdlc/TEST_AND_QUALITY_POLICY.md` | Reconcile test strategy guidance; add risk-based selection and exit evidence. |"
+  },
+  {
+    "id": "35",
+    "name": "Automated Testing Engineer",
+    "skillId": "automated-testing-engineer",
+    "status": "mapped",
+    "canonicalPath": "skills/Skill - 074 - Automated Testing Engineer/SKILL.md",
+    "sourceMapping": "| 35 | Automated Testing Engineer | duplicate | Traceability row 35: automation, unit, and QA skills | `skills/32-test-automation-engineering/SKILL.md`; `skills/30-api-database-integration-testing/SKILL.md`; `enterprise-ui-fullstack-skills/.github/skills/frontend-testing-and-visual-regression/SKILL.md` | Consolidate boundaries and safe fixture/cleanup policy; no runtime test suite was executed. |"
+  },
+  {
+    "id": "36",
+    "name": "Edge-Case & Randomized Testing",
+    "skillId": "edge-case-and-randomized-testing",
+    "status": "mapped",
+    "canonicalPath": "skills/Skill - 075 - Edge-Case & Randomized Testing/SKILL.md",
+    "sourceMapping": "| 36 | Edge-Case & Randomized Testing | indirect | Traceability row 36: QA/unit boundary guidance | `skills/31-test-strategy-management/SKILL.md`; `skills/32-test-automation-engineering/SKILL.md` | Define seeded property-based testing, shrinking, replay, and bounded resource use; no dedicated capability found. |"
+  },
+  {
+    "id": "37",
+    "name": "UI/UX & Accessibility Tester",
+    "skillId": "ui-ux-and-accessibility-tester",
+    "status": "mapped",
+    "canonicalPath": "skills/Skill - 083 - UI UX & Accessibility Tester/SKILL.md",
+    "sourceMapping": "| 37 | UI/UX & Accessibility Tester | duplicate | Traceability row 37: functional/frontend/mobile skills | `skills/25-accessibility-responsive-quality/SKILL.md`; `enterprise-ui-fullstack-skills/.github/skills/accessibility-and-inclusive-design/SKILL.md`; `enterprise-ui-fullstack-skills/.github/skills/frontend-testing-and-visual-regression/SKILL.md` | Reconcile accessibility procedures and define observable WCAG/keyboard evidence by tool/platform. |"
+  },
+  {
+    "id": "38",
+    "name": "Security Auditor",
+    "skillId": "security-auditor",
+    "status": "mapped",
+    "canonicalPath": "skills/Skill - 080 - Security Auditor/SKILL.md",
+    "sourceMapping": "| 38 | Security Auditor | duplicate | Traceability row 38: appsec skill and root security policy | `skills/28-application-security-devsecops/SKILL.md`; `skills/29-data-privacy-compliance/SKILL.md`; `enterprise-ui-fullstack-skills/.github/skills/security-privacy-and-data-governance/SKILL.md` | Preserve distinct threat/appsec/privacy roles; share safe findings/evidence and false-positive handling. |"
+  },
+  {
+    "id": "39",
+    "name": "Performance Auditor",
+    "skillId": "performance-auditor",
+    "status": "mapped",
+    "canonicalPath": "skills/Skill - 076 - Performance Auditor/SKILL.md",
+    "sourceMapping": "| 39 | Performance Auditor | duplicate | Traceability row 39: profiling/scalability skill | `skills/34-performance-scalability-engineering/SKILL.md`; `enterprise-ui-fullstack-skills/.github/skills/frontend-performance-and-asset-optimization/SKILL.md` | Separate general profiling from frontend optimization; require workload, baseline, variance, and thresholds. |"
+  },
+  {
+    "id": "40",
+    "name": "Regression & Change Impact Analyzer",
+    "skillId": "regression-and-change-impact-analyzer",
+    "status": "mapped",
+    "canonicalPath": "skills/Skill - 078 - Regression & Change Impact Analyzer/SKILL.md",
+    "sourceMapping": "| 40 | Regression & Change Impact Analyzer | duplicate | Traceability row 40: unit/automation/refactor skills | `skills/33-build-regression-verification/SKILL.md`; `enterprise-ui-fullstack-skills/.github/skills/project-continuity-and-change-impact-management/SKILL.md` | Define diff-to-impact evidence and risk-based verification; preserve regression and continuity boundaries. |"
+  },
+  {
+    "id": "41",
+    "name": "Test Failure & Root-Cause Analyzer",
+    "skillId": "test-failure-and-root-cause-analyzer",
+    "status": "mapped",
+    "canonicalPath": "skills/Skill - 081 - Test Failure & Root-Cause Analyzer/SKILL.md",
+    "sourceMapping": "| 41 | Test Failure & Root-Cause Analyzer | duplicate | Traceability row 41: diagnostic and QA skills | `skills/36-logging-error-diagnostics/SKILL.md`; `skills/38-incident-response-root-cause/SKILL.md` | Add test-specific flaky/environment/product classification and one-run/approval limits. |"
+  },
+  {
+    "id": "42",
+    "name": "Quality Gate & Readiness Evaluator",
+    "skillId": "quality-gate-and-readiness-evaluator",
+    "status": "mapped",
+    "canonicalPath": "skills/Skill - 077 - Quality Gate & Readiness Evaluator/SKILL.md",
+    "sourceMapping": "| 42 | Quality Gate & Readiness Evaluator | duplicate | Traceability row 42: SDLC, deployment, appsec skills | `skills/19-code-review-quality-gate/SKILL.md`; `skills/31-test-strategy-management/SKILL.md`; `skills/43-production-readiness-release-management/SKILL.md`; `skills/Skill - 064 - Build Test Approval Gate/SKILL.md` | Compose required evidence without conflating readiness assessment and release authority. |"
+  },
+  {
+    "id": "43",
+    "name": "Documentation Generator",
+    "skillId": "documentation-generator",
+    "status": "mapped",
+    "canonicalPath": "skills/Skill - 093 - Documentation Generator/SKILL.md",
+    "sourceMapping": "| 43 | Documentation Generator | duplicate | Traceability row 43: documentation engineering | `skills/44-documentation-knowledge-management/SKILL.md`; `enterprise-ui-fullstack-skills/.github/skills/project-documentation-and-readme-engineering/SKILL.md` | Define audience/source mapping and factuality checks; retain project-specific templates. |"
+  },
+  {
+    "id": "44",
+    "name": "Documentation Synchronization",
+    "skillId": "documentation-synchronization",
+    "status": "mapped",
+    "canonicalPath": "skills/Skill - 094 - Documentation Synchronization/SKILL.md",
+    "sourceMapping": "| 44 | Documentation Synchronization | duplicate | Traceability row 44: docs and discovery skills | `skills/44-documentation-knowledge-management/SKILL.md`; `enterprise-ui-fullstack-skills/.github/skills/project-continuity-and-change-impact-management/SKILL.md` | Add ownership, change detection, source-of-truth, and generated-doc review policy. |"
+  },
+  {
+    "id": "45",
+    "name": "Project Report & Diagram Generator",
+    "skillId": "project-report-and-diagram-generator",
+    "status": "mapped",
+    "canonicalPath": "skills/Skill - 098 - Project Report & Diagram Generator/SKILL.md",
+    "sourceMapping": "| 45 | Project Report & Diagram Generator | partial | Traceability row 45: documentation and SDLC guidance | `enterprise-ui-fullstack-skills/.github/skills/architecture-diagram-and-flow-documentation/SKILL.md`; `templates/sdlc/LIFECYCLE_AND_TRACEABILITY_TEMPLATE.md` | Define report/diagram output contracts, evidence links, and renderer validation. |"
+  },
+  {
+    "id": "46",
+    "name": "Build & Packaging Verifier",
+    "skillId": "build-and-packaging-verifier",
+    "status": "mapped",
+    "canonicalPath": "skills/Skill - 091 - Build & Packaging Verifier/SKILL.md",
+    "sourceMapping": "| 46 | Build & Packaging Verifier | duplicate | Traceability row 46: stack-specific build examples | `skills/15-build-toolchain-manager/SKILL.md`; `skills/39-artifact-release-builder/SKILL.md`; `skills/Skill - 064 - Build Test Approval Gate/SKILL.md` | Compose native build/package procedures; report artifact identity/reproducibility; do not infer execution. |"
+  },
+  {
+    "id": "47",
+    "name": "Deployment & Environment Engineer",
+    "skillId": "deployment-and-environment-engineer",
+    "status": "mapped",
+    "canonicalPath": "skills/Skill - 092 - Deployment & Environment Engineer/SKILL.md",
+    "sourceMapping": "| 47 | Deployment & Environment Engineer | duplicate | Traceability row 47: DevOps and production verification | `skills/40-hosting-platform-adapter/SKILL.md`; `skills/41-cicd-infrastructure-automation/SKILL.md`; `skills/42-deployment-live-service-verification/SKILL.md`; `skills/53-production-environment-deployment-engineer/SKILL.md` | Separate deployment preparation from production execution and live verification. |"
+  },
+  {
+    "id": "48",
+    "name": "Release & Rollback Manager",
+    "skillId": "release-and-rollback-manager",
+    "status": "mapped",
+    "canonicalPath": "skills/Skill - 099 - Release & Rollback Manager/SKILL.md",
+    "sourceMapping": "| 48 | Release & Rollback Manager | duplicate | Traceability row 48: deployment and container skills | `skills/39-artifact-release-builder/SKILL.md`; `skills/43-production-readiness-release-management/SKILL.md`; `templates/deployment/ROLLBACK_TEMPLATE.md` | Define immutable release evidence, rollback rehearsal, ownership, and authorization. |"
+  },
+  {
+    "id": "49",
+    "name": "User Acceptance & Sign-Off Manager",
+    "skillId": "user-acceptance-and-sign-off-manager",
+    "status": "mapped",
+    "canonicalPath": "skills/Skill - 101 - User Acceptance & Sign-Off Manager/SKILL.md",
+    "sourceMapping": "| 49 | User Acceptance & Sign-Off Manager | partial | Traceability row 49: functional testing and planning | `enterprise-ui-fullstack-skills/.github/skills/Skill - 066 - End To End Quality And Acceptance Management/SKILL.md`; `docs/sdlc/STAGE_GATES.md` | Require authorized stakeholder decision, explicit acceptance/rejection, and audit record. |"
+  },
+  {
+    "id": "50",
+    "name": "Final Project Completion Auditor",
+    "skillId": "final-project-completion-auditor",
+    "status": "mapped",
+    "canonicalPath": "skills/Skill - 095 - Final Project Completion Auditor/SKILL.md",
+    "sourceMapping": "| 50 | Final Project Completion Auditor | indirect | Traceability row 50: project, planning, and docs audit concerns | `skills/04-sdlc-lifecycle-manager/SKILL.md`; `skills/43-production-readiness-release-management/SKILL.md`; `docs/sdlc/STAGE_GATES.md` | Compose lifecycle, test, release, documentation, and handover criteria without claiming a unified auditor. |"
+  },
+  {
+    "id": "51",
+    "name": "MCP Integration Specialist",
+    "skillId": "mcp-integration-specialist",
+    "status": "mapped",
+    "canonicalPath": "skills/Skill - 120 - MCP Integration Specialist/SKILL.md",
+    "sourceMapping": "| 51 | MCP Integration Specialist | partial | Traceability row 51: no global MCP-specific skill found | `skills/48-mcp-tool-integration/SKILL.md` | Validate platform protocol, tool permission contracts, input schemas, errors, and fallback with scenarios. |"
+  },
+  {
+    "id": "52",
+    "name": "Automation Workflow Designer",
+    "skillId": "automation-workflow-designer",
+    "status": "mapped",
+    "canonicalPath": "skills/Skill - 116 - Automation Workflow Designer/SKILL.md",
+    "sourceMapping": "| 52 | Automation Workflow Designer | duplicate | Traceability row 52: workflow scheduling and global-system skills | `skills/49-workflow-automation-scheduling/SKILL.md`; `orchestration/WORKFLOW_PATTERNS.md`; `orchestration/MASTER_ORCHESTRATOR.md` | Reconcile workflow design vs scheduling; define triggers, idempotency, recovery, and side effects. |"
+  },
+  {
+    "id": "53",
+    "name": "Skill Selection & Orchestration Engine",
+    "skillId": "skill-selection-and-orchestration-engine",
+    "status": "mapped",
+    "canonicalPath": "skills/Skill - 122 - Skill Selection & Orchestration Engine/SKILL.md",
+    "sourceMapping": "| 53 | Skill Selection & Orchestration Engine | duplicate | Traceability row 53: global-system and token efficiency skills | `skills/47-ai-agent-skills-tool-governance/SKILL.md`; `skills/50-engineering-orchestrator-continuous-improvement/SKILL.md`; `orchestration/SKILL_ROUTING.md` | Choose one routing contract and platform adapters; static routing docs are not a verified runtime engine. |"
+  },
+  {
+    "id": "54",
+    "name": "Parallel Agent Coordinator",
+    "skillId": "parallel-agent-coordinator",
+    "status": "mapped",
+    "canonicalPath": "skills/Skill - 121 - Parallel Agent Coordinator/SKILL.md",
+    "sourceMapping": "| 54 | Parallel Agent Coordinator | indirect | Traceability row 54: no dedicated parallel-coordination skill | `orchestration/MASTER_ORCHESTRATOR.md`; `orchestration/DEPENDENCY_GRAPH.md`; `skills/50-engineering-orchestrator-continuous-improvement/SKILL.md` | Define ownership, conflict prevention, merge handoff, and verification only for supported agent platforms. |"
+  },
+  {
+    "id": "55",
+    "name": "Task Queue & Dependency Scheduler",
+    "skillId": "task-queue-and-dependency-scheduler",
+    "status": "mapped",
+    "canonicalPath": "skills/Skill - 123 - Task Queue & Dependency Scheduler/SKILL.md",
+    "sourceMapping": "| 55 | Task Queue & Dependency Scheduler | partial | Traceability row 55: scheduling/planning guidance | `skills/49-workflow-automation-scheduling/SKILL.md`; `orchestration/DEPENDENCY_GRAPH.md` | Define shared task schema, prerequisite readiness, priority, idempotency, and fairness. |"
+  },
+  {
+    "id": "56",
+    "name": "Workflow Failure & Recovery Manager",
+    "skillId": "workflow-failure-and-recovery-manager",
+    "status": "mapped",
+    "canonicalPath": "skills/Skill - 124 - Workflow Failure & Recovery Manager/SKILL.md",
+    "sourceMapping": "| 56 | Workflow Failure & Recovery Manager | duplicate | Traceability row 56: scheduling and RCA skills | `skills/35-reliability-fault-recovery/SKILL.md`; `skills/38-incident-response-root-cause/SKILL.md`; `orchestration/CONFLICT_RESOLUTION.md` | Compose checkpoints/resume and safe recovery; prevent duplicate non-idempotent actions. |"
+  },
+  {
+    "id": "57",
+    "name": "Approval & Permission Controller",
+    "skillId": "approval-and-permission-controller",
+    "status": "mapped",
+    "canonicalPath": "skills/Skill - 115 - Approval & Permission Controller/SKILL.md",
+    "sourceMapping": "| 57 | Approval & Permission Controller | partial | Traceability row 57: security policy and test-account guidance | `skills/01-engineering-governance/SKILL.md`; `skills/Skill - 064 - Build Test Approval Gate/SKILL.md`; `docs/sdlc/RISK_AND_APPROVAL_POLICY.md` | Specify enforcement separately from prose policy; scope, expiry, denial, revocation, and audit. |"
+  },
+  {
+    "id": "58",
+    "name": "Logs, Audit Trail & Reporting",
+    "skillId": "logs-audit-trail-and-reporting",
+    "status": "mapped",
+    "canonicalPath": "skills/Skill - 119 - Logs, Audit Trail & Reporting/SKILL.md",
+    "sourceMapping": "| 58 | Logs, Audit Trail & Reporting | indirect | Traceability row 58: no common audit event schema found | `skills/36-logging-error-diagnostics/SKILL.md`; `skills/37-observability-monitoring-alerting/SKILL.md`; `enterprise-ui-fullstack-skills/.github/skills/backend-logging-and-request-tracing/SKILL.md` | Define privacy-aware event schema/retention/access; logging skills do not provide a unified audit store. |"
+  },
+  {
+    "id": "59",
+    "name": "Event & Scheduled Trigger Manager",
+    "skillId": "event-and-scheduled-trigger-manager",
+    "status": "mapped",
+    "canonicalPath": "skills/Skill - 118 - Event & Scheduled Trigger Manager/SKILL.md",
+    "sourceMapping": "| 59 | Event & Scheduled Trigger Manager | duplicate | Traceability row 59: workflow scheduling skill | `skills/49-workflow-automation-scheduling/SKILL.md`; `orchestration/WORKFLOW_PATTERNS.md` | Add trigger registry, permissions, deduplication, pause/disable, and replay contract. |"
+  },
+  {
+    "id": "60",
+    "name": "Cross-Project Reuse & Knowledge Manager",
+    "skillId": "cross-project-reuse-and-knowledge-manager",
+    "status": "mapped",
+    "canonicalPath": "skills/Skill - 117 - Cross-Project Reuse & Knowledge Manager/SKILL.md",
+    "sourceMapping": "| 60 | Cross-Project Reuse & Knowledge Manager | partial | Traceability row 60: discovery and global-system guidance | `skills/47-ai-agent-skills-tool-governance/SKILL.md`; `skills/50-engineering-orchestrator-continuous-improvement/SKILL.md` | Define provenance/search/consent and isolation; do not index private source or secrets without authorization. |"
+  },
+  {
+    "id": "61",
+    "name": "Project Health Dashboard",
+    "skillId": "project-health-dashboard",
+    "status": "mapped",
+    "canonicalPath": "skills/Skill - 111 - Project Health Dashboard/SKILL.md",
+    "sourceMapping": "| 61 | Project Health Dashboard | missing | Traceability row 61: no dashboard/report capability found | `skills/37-observability-monitoring-alerting/SKILL.md` is adjacent only | Define freshness-aware project metrics and source adapters before creating a dashboard capability. |"
+  },
+  {
+    "id": "62",
+    "name": "Automated Backlog Generator",
+    "skillId": "automated-backlog-generator",
+    "status": "mapped",
+    "canonicalPath": "skills/Skill - 105 - Automated Backlog Generator/SKILL.md",
+    "sourceMapping": "| 62 | Automated Backlog Generator | indirect | Traceability row 62: planning and RCA outputs | `skills/16-implementation-planner/SKILL.md`; `skills/20-technical-debt-management/SKILL.md` | Add verified finding-to-task conversion, deduplication, owner, priority, and evidence. |"
+  },
+  {
+    "id": "63",
+    "name": "Continuous Project Auditor",
+    "skillId": "continuous-project-auditor",
+    "status": "mapped",
+    "canonicalPath": "skills/Skill - 108 - Continuous Project Auditor/SKILL.md",
+    "sourceMapping": "| 63 | Continuous Project Auditor | duplicate | Traceability row 63: discovery, appsec, and performance skills | `skills/02-project-discovery-audit/SKILL.md`; `skills/28-application-security-devsecops/SKILL.md`; `skills/34-performance-scalability-engineering/SKILL.md` | Compose audit dimensions with cadence/authorization, baseline, dedupe, and trend evidence. |"
+  },
+  {
+    "id": "64",
+    "name": "Dependency & Compatibility Monitor",
+    "skillId": "dependency-and-compatibility-monitor",
+    "status": "mapped",
+    "canonicalPath": "skills/Skill - 109 - Dependency & Compatibility Monitor/SKILL.md",
+    "sourceMapping": "| 64 | Dependency & Compatibility Monitor | duplicate | Traceability row 64: one-time discovery/configuration skills | `skills/12-dependency-lifecycle-manager/SKILL.md`; `skills/45-technology-watch-dependency-updates/SKILL.md`; `skills/46-migration-upgrade-compatibility/SKILL.md` | Reconcile monitoring, upgrade planning, and compatibility checks; define source/advisory freshness. |"
+  },
+  {
+    "id": "65",
+    "name": "Incident & Error Trend Analyzer",
+    "skillId": "incident-and-error-trend-analyzer",
+    "status": "mapped",
+    "canonicalPath": "skills/Skill - 110 - Incident & Error Trend Analyzer/SKILL.md",
+    "sourceMapping": "| 65 | Incident & Error Trend Analyzer | indirect | Traceability row 65: single-incident diagnosis/profiling only | `skills/36-logging-error-diagnostics/SKILL.md`; `skills/37-observability-monitoring-alerting/SKILL.md`; `skills/38-incident-response-root-cause/SKILL.md` | Add historical aggregation and privacy-preserving recurrence analysis; no trend engine found. |"
+  },
+  {
+    "id": "66",
+    "name": "Skill Evaluation & Improvement",
+    "skillId": "skill-evaluation-and-improvement",
+    "status": "mapped",
+    "canonicalPath": "skills/Skill - 114 - Skill Evaluation & Improvement/SKILL.md",
+    "sourceMapping": "| 66 | Skill Evaluation & Improvement | duplicate | Traceability row 66: global skill and static validator | `skills/47-ai-agent-skills-tool-governance/SKILL.md`; `enterprise-ui-fullstack-skills/.github/skills/skills-validation-versioning-and-release/SKILL.md`; `scripts/validate_skills.py` | Extend structural checks with safe scenario outcomes, reliability/cost measures, and feedback versioning. |"
+  },
+  {
+    "id": "67",
+    "name": "Automation Cost & Performance Optimizer",
+    "skillId": "automation-cost-and-performance-optimizer",
+    "status": "mapped",
+    "canonicalPath": "skills/Skill - 106 - Automation Cost & Performance Optimizer/SKILL.md",
+    "sourceMapping": "| 67 | Automation Cost & Performance Optimizer | duplicate | Traceability row 67: token efficiency and profiling skills | `enterprise-ui-fullstack-skills/.github/skills/Skill - 017 - Token Efficient Agent Workflows/SKILL.md`; `skills/34-performance-scalability-engineering/SKILL.md`; `enterprise-ui-fullstack-skills/orchestration/TOKEN_EFFICIENCY_POLICY.md` | Define instrumentation/baselines for agent cost and latency; separate code performance from agent usage. |"
+  },
+  {
+    "id": "68",
+    "name": "Project Learning & Lessons Manager",
+    "skillId": "project-learning-and-lessons-manager",
+    "status": "mapped",
+    "canonicalPath": "skills/Skill - 112 - Project Learning & Lessons Manager/SKILL.md",
+    "sourceMapping": "| 68 | Project Learning & Lessons Manager | indirect | Traceability row 68: handover/planning guidance | `skills/50-engineering-orchestrator-continuous-improvement/SKILL.md`; `enterprise-ui-fullstack-skills/.github/skills/project-continuity-and-change-impact-management/SKILL.md` | Define opt-in verified lesson records, applicability, retention, privacy, and project isolation. |"
+  },
+  {
+    "id": "69",
+    "name": "Project Lifecycle Reassessment",
+    "skillId": "project-lifecycle-reassessment",
+    "status": "mapped",
+    "canonicalPath": "skills/Skill - 113 - Project Lifecycle Reassessment/SKILL.md",
+    "sourceMapping": "| 69 | Project Lifecycle Reassessment | indirect | Traceability row 69: planning/discovery skills | `skills/04-sdlc-lifecycle-manager/SKILL.md`; `skills/50-engineering-orchestrator-continuous-improvement/SKILL.md` | Define periodic maturity criteria and evidence-based reassessment decisions. |"
+  },
+  {
+    "id": "70",
+    "name": "Continuous Improvement Planner",
+    "skillId": "continuous-improvement-planner",
+    "status": "mapped",
+    "canonicalPath": "skills/Skill - 107 - Continuous Improvement Planner/SKILL.md",
+    "sourceMapping": "| 70 | Continuous Improvement Planner | partial | Traceability row 70: planning/profiling skills | `skills/50-engineering-orchestrator-continuous-improvement/SKILL.md`; `skills/05-project-planning-traceability/SKILL.md` | Connect verified outcomes to owners, measurable improvement actions, and review dates. |"
+  },
+  {
+    "id": "71",
+    "name": "Universal Project Structure Architect",
+    "skillId": "universal-project-structure-architect",
+    "status": "mapped",
+    "canonicalPath": "skills/Skill - 090 - Universal Project Structure Architect/SKILL.md",
+    "sourceMapping": "| 71 | Universal Project Structure Architect | duplicate | Traceability row 71: architecture/discovery guidance | `skills/07-project-structure-manager/SKILL.md`; `universal-project-setup/SKILL.md` | Reconcile structure design with scaffolding/setup; keep recommendations non-prescriptive and migration-safe. |"
+  },
+  {
+    "id": "72",
+    "name": "Project Manifest & Index Generator",
+    "skillId": "project-manifest-and-index-generator",
+    "status": "mapped",
+    "canonicalPath": "skills/Skill - 089 - Project Manifest & Index Generator/SKILL.md",
+    "sourceMapping": "| 72 | Project Manifest & Index Generator | indirect | Traceability row 72: no project manifest/index generator found globally | `skills/07-project-structure-manager/SKILL.md`; `universal-project-setup/SKILL.md` | Define schema, source freshness, generated/manual ownership, and validation; no generator found in evidence reviewed. |"
+  },
+  {
+    "id": "73",
+    "name": "Project Knowledge Ingestion Engine",
+    "skillId": "project-knowledge-ingestion-engine",
+    "status": "mapped",
+    "canonicalPath": "skills/Skill - 087 - Project Knowledge Ingestion Engine/SKILL.md",
+    "sourceMapping": "| 73 | Project Knowledge Ingestion Engine | missing | Traceability row 73: discovery only, no ingestion/indexer | `skills/02-project-discovery-audit/SKILL.md` is adjacent only | Specify authorized source adapters, provenance, redaction, indexing, refresh, and permission model first. |"
+  },
+  {
+    "id": "74",
+    "name": "Project Context Completeness Auditor",
+    "skillId": "project-context-completeness-auditor",
+    "status": "mapped",
+    "canonicalPath": "skills/Skill - 085 - Project Context Completeness Auditor/SKILL.md",
+    "sourceMapping": "| 74 | Project Context Completeness Auditor | partial | Traceability row 74: discovery/unknown-reporting guidance | `skills/02-project-discovery-audit/SKILL.md`; `enterprise-ui-fullstack-skills/.github/skills/project-discovery-and-design-audit/SKILL.md` | Define task-specific sufficiency/confidence criteria and a safe next-action gate. |"
+  },
+  {
+    "id": "75",
+    "name": "Project Knowledge Synchronization Agent",
+    "skillId": "project-knowledge-synchronization-agent",
+    "status": "mapped",
+    "canonicalPath": "skills/Skill - 088 - Project Knowledge Synchronization Agent/SKILL.md",
+    "sourceMapping": "| 75 | Project Knowledge Synchronization Agent | indirect | Traceability row 75: documentation drift/discovery | `skills/44-documentation-knowledge-management/SKILL.md`; `enterprise-ui-fullstack-skills/.github/skills/project-continuity-and-change-impact-management/SKILL.md` | Define source-of-truth, index/manifest change detection, conflict resolution, and stale markers. |"
+  },
+  {
+    "id": "76",
+    "name": "Project Handover & Session Recovery Agent",
+    "skillId": "project-handover-and-session-recovery-agent",
+    "status": "mapped",
+    "canonicalPath": "skills/Skill - 086 - Project Handover & Session Recovery Agent/SKILL.md",
+    "sourceMapping": "| 76 | Project Handover & Session Recovery Agent | duplicate | Traceability row 76: global-system and token-efficient skills | `enterprise-ui-fullstack-skills/.github/skills/project-continuity-and-change-impact-management/SKILL.md`; `orchestration/WORKFLOW_PATTERNS.md` | Reconcile overlapping continuity guidance; define canonical state and verified resume behavior. |"
+  },
+  {
+    "id": "77",
+    "name": "Project Artifact & Evidence Manager",
+    "skillId": "project-artifact-and-evidence-manager",
+    "status": "mapped",
+    "canonicalPath": "skills/Skill - 084 - Project Artifact & Evidence Manager/SKILL.md",
+    "sourceMapping": "| 77 | Project Artifact & Evidence Manager | indirect | Traceability row 77: documentation and global-system guidance | `skills/44-documentation-knowledge-management/SKILL.md`; `templates/sdlc/LIFECYCLE_AND_TRACEABILITY_TEMPLATE.md` | Define artifact registry, provenance/integrity, access, retention, and project-specific boundaries. |"
+  },
+  {
+    "id": "78",
+    "name": "Roadmap & Future Feature Manager",
+    "skillId": "roadmap-and-future-feature-manager",
+    "status": "mapped",
+    "canonicalPath": "skills/Skill - 103 - Roadmap & Future Feature Manager/SKILL.md",
+    "sourceMapping": "| 78 | Roadmap & Future Feature Manager | partial | Traceability row 78: SDLC roadmap guidance | `skills/05-project-planning-traceability/SKILL.md`; `skills/16-implementation-planner/SKILL.md` | Distinguish ideas/proposals/approved commitments and record deferral reasons. |"
+  },
+  {
+    "id": "79",
+    "name": "Release & Version History Manager",
+    "skillId": "release-and-version-history-manager",
+    "status": "mapped",
+    "canonicalPath": "skills/Skill - 102 - Release & Version History Manager/SKILL.md",
+    "sourceMapping": "| 79 | Release & Version History Manager | duplicate | Traceability row 79: deployment/DevOps skills | `skills/39-artifact-release-builder/SKILL.md`; `skills/43-production-readiness-release-management/SKILL.md`; `CHANGELOG.md` | Define immutable release provenance/version history; do not infer active releases from policy. |"
+  },
+  {
+    "id": "80",
+    "name": "Unified Project Status & Next-Step Generator",
+    "skillId": "unified-project-status-and-next-step-generator",
+    "status": "mapped",
+    "canonicalPath": "skills/Skill - 104 - Unified Project Status & Next-Step Generator/SKILL.md",
+    "sourceMapping": "| 80 | Unified Project Status & Next-Step Generator | partial | Traceability row 80: global-system and SDLC status guidance | `skills/50-engineering-orchestrator-continuous-improvement/SKILL.md`; `orchestration/MASTER_ORCHESTRATOR.md`; `orchestration/WORKFLOW_PATTERNS.md` | Define freshness-aware status assembled from canonical evidence and explicit next-action derivation. |"
+  }
+]

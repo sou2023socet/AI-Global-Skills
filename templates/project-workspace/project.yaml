@@ -1,0 +1,14 @@
+schemaVersion: "1.0"
+id: replace-with-stable-project-id
+name: replace-with-project-name
+repository:
+  path: replace-with-absolute-path
+  remote: unknown
+owner: unknown
+accessScope: explicit
+lastVerified: unknown
+status: unknown
+context:
+  sourceOfTruth: project-files-and-approved-evidence
+  freshnessPolicy: verify-before-use
+  sensitiveDataPolicy: never-copy-secrets

@@ -1,0 +1,392 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/project-universal-global-ai-skills/skill-registry.schema.json",
+  "title": "Project Universal Global AI Skills Registry",
+  "description": "Canonical metadata contract for reusable skills. Cross-record uniqueness, candidate coverage, and dependency acyclicity require a separate validator.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "registryVersion",
+    "skills"
+  ],
+  "properties": {
+    "registryVersion": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+$"
+    },
+    "skills": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/skill"
+      }
+    },
+    "generatedFrom": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "catalogue",
+        "mapping"
+      ],
+      "properties": {
+        "catalogue": {
+          "type": "string",
+          "minLength": 1
+        },
+        "mapping": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    }
+  },
+  "$defs": {
+    "skill": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "name",
+        "description",
+        "path",
+        "version",
+        "contractVersion",
+        "status",
+        "lifecycleGroup",
+        "purpose",
+        "triggers",
+        "nonTriggers",
+        "provenance",
+        "dependencies",
+        "inputs",
+        "outputs",
+        "tools",
+        "validationCriteria",
+        "candidateIds"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "name": {
+          "type": "string",
+          "pattern": "^Skill - [0-9]{3} - .+$"
+        },
+        "description": {
+          "type": "string",
+          "minLength": 1
+        },
+        "path": {
+          "type": "string",
+          "pattern": "^skills/.+/SKILL\\.md$"
+        },
+        "version": {
+          "type": "string",
+          "pattern": "^(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)(?:-[0-9A-Za-z.-]+)?(?:\\+[0-9A-Za-z.-]+)?$"
+        },
+        "contractVersion": {
+          "type": "string",
+          "pattern": "^(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)$"
+        },
+        "status": {
+          "enum": [
+            "proposed",
+            "authored",
+            "statically_validated",
+            "scenario_tested",
+            "platform_verified",
+            "deprecated",
+            "discovered",
+            "planned",
+            "implemented",
+            "structurally_validated",
+            "functionally_verified",
+            "blocked"
+          ]
+        },
+        "lifecycleGroup": {
+          "enum": [
+            "discovery",
+            "research",
+            "requirements",
+            "planning",
+            "architecture",
+            "development",
+            "integration",
+            "testing",
+            "security",
+            "documentation",
+            "deployment",
+            "release",
+            "maintenance",
+            "continuous-improvement",
+            "orchestration",
+            "foundation",
+            "recovery",
+            "research-planning",
+            "quality",
+            "delivery",
+            "automation",
+            "project-knowledge",
+            "roadmap-release"
+          ]
+        },
+        "purpose": {
+          "type": "string",
+          "minLength": 1
+        },
+        "triggers": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "nonTriggers": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "provenance": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "repository",
+              "path",
+              "reviewStatus"
+            ],
+            "properties": {
+              "repository": {
+                "type": "string",
+                "minLength": 1
+              },
+              "path": {
+                "type": "string",
+                "minLength": 1
+              },
+              "sha256": {
+                "type": "string",
+                "pattern": "^[a-f0-9]{64}$"
+              },
+              "reviewStatus": {
+                "enum": [
+                  "unreviewed",
+                  "reviewed",
+                  "approved",
+                  "rejected",
+                  "unknown"
+                ]
+              },
+              "license": {
+                "type": "string"
+              },
+              "owner": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "dependencies": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "skillId",
+              "required"
+            ],
+            "properties": {
+              "skillId": {
+                "type": "string",
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+              },
+              "required": {
+                "type": "boolean"
+              },
+              "versionRange": {
+                "type": "string"
+              },
+              "handoff": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "inputs": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/io"
+          }
+        },
+        "outputs": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/io"
+          }
+        },
+        "tools": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "name",
+              "permission"
+            ],
+            "properties": {
+              "name": {
+                "type": "string",
+                "minLength": 1
+              },
+              "permission": {
+                "enum": [
+                  "read-only",
+                  "modify-files",
+                  "execute-code",
+                  "external-access",
+                  "production-impact"
+                ]
+              },
+              "requiresApproval": {
+                "type": "boolean"
+              },
+              "sideEffects": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "validationCriteria": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "criterion",
+              "evidenceType"
+            ],
+            "properties": {
+              "criterion": {
+                "type": "string",
+                "minLength": 1
+              },
+              "evidenceType": {
+                "enum": [
+                  "static",
+                  "scenario",
+                  "platform",
+                  "manual-review"
+                ]
+              }
+            }
+          }
+        },
+        "candidateIds": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^(0[1-9]|[1-7][0-9]|80)$"
+          }
+        },
+        "sourceSkillIds": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "executionOrder": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "canonical": {
+          "type": "boolean"
+        },
+        "verification": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "structural": {
+              "type": "string"
+            },
+            "functional": {
+              "type": "string"
+            },
+            "platform": {
+              "type": "string"
+            }
+          }
+        },
+        "implementationKind": {
+          "enum": [
+            "skill",
+            "workflow",
+            "template",
+            "integration",
+            "shared-resource",
+            "deferred",
+            "promoted-source-skill"
+          ]
+        },
+        "sourceMapping": {
+          "type": "string"
+        },
+        "deprecatedBy": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "replacedBy": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        }
+      }
+    },
+    "io": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name",
+        "description",
+        "required",
+        "sensitivity"
+      ],
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "description": {
+          "type": "string",
+          "minLength": 1
+        },
+        "required": {
+          "type": "boolean"
+        },
+        "format": {
+          "type": "string"
+        },
+        "sensitivity": {
+          "enum": [
+            "public",
+            "internal",
+            "confidential",
+            "restricted",
+            "unknown"
+          ]
+        },
+        "freshnessRequired": {
+          "type": "boolean"
+        }
+      }
+    }
+  }
+}

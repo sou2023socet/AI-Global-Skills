@@ -1,0 +1,1340 @@
+{
+  "version": "1.0",
+  "skills": {
+    "advanced-inputs-and-data-formatting": {
+      "new": "Skill - 001 - Advanced Inputs And Data Formatting",
+      "purpose": "Advanced Inputs And Data Formatting",
+      "path": "skills/Skill - 001 - Advanced Inputs And Data Formatting/SKILL.md"
+    },
+    "application-shell-and-layout-system": {
+      "new": "Skill - 002 - Application Shell And Layout System",
+      "purpose": "Application Shell And Layout System",
+      "path": "skills/Skill - 002 - Application Shell And Layout System/SKILL.md"
+    },
+    "cross-platform-mobile-engineering": {
+      "new": "Skill - 003 - Cross Platform Mobile Engineering",
+      "purpose": "Cross Platform Mobile Engineering",
+      "path": "skills/Skill - 003 - Cross Platform Mobile Engineering/SKILL.md"
+    },
+    "environment-readiness-and-developer-setup": {
+      "new": "Skill - 004 - Environment Readiness And Developer Setup",
+      "purpose": "Environment Readiness And Developer Setup",
+      "path": "skills/Skill - 004 - Environment Readiness And Developer Setup/SKILL.md"
+    },
+    "evidence-and-status-engine": {
+      "new": "Skill - 005 - Evidence & Status Engine",
+      "purpose": "Evidence & Status Engine",
+      "path": "skills/Skill - 005 - Evidence & Status Engine/SKILL.md"
+    },
+    "global-development-rules": {
+      "new": "Skill - 006 - Global Development Rules",
+      "purpose": "Global Development Rules",
+      "path": "skills/Skill - 006 - Global Development Rules/SKILL.md"
+    },
+    "global-skills-framework": {
+      "new": "Skill - 007 - Global Skills Framework",
+      "purpose": "Global Skills Framework",
+      "path": "skills/Skill - 007 - Global Skills Framework/SKILL.md"
+    },
+    "loading-skeleton-and-feedback-system": {
+      "new": "Skill - 008 - Loading Skeleton And Feedback System",
+      "purpose": "Loading Skeleton And Feedback System",
+      "path": "skills/Skill - 008 - Loading Skeleton And Feedback System/SKILL.md"
+    },
+    "mlops-llm-pipeline-engineering": {
+      "new": "Skill - 009 - Mlops Llm Pipeline Engineering",
+      "purpose": "Mlops Llm Pipeline Engineering",
+      "path": "skills/Skill - 009 - Mlops Llm Pipeline Engineering/SKILL.md"
+    },
+    "neuro-symbolic-math-reasoning": {
+      "new": "Skill - 010 - Neuro Symbolic Math Reasoning",
+      "purpose": "Neuro Symbolic Math Reasoning",
+      "path": "skills/Skill - 010 - Neuro Symbolic Math Reasoning/SKILL.md"
+    },
+    "project-context-analyzer": {
+      "new": "Skill - 011 - Project Context Analyzer",
+      "purpose": "Project Context Analyzer",
+      "path": "skills/Skill - 011 - Project Context Analyzer/SKILL.md"
+    },
+    "project-memory-and-handover": {
+      "new": "Skill - 012 - Project Memory & Handover",
+      "purpose": "Project Memory & Handover",
+      "path": "skills/Skill - 012 - Project Memory & Handover/SKILL.md"
+    },
+    "project-registry": {
+      "new": "Skill - 013 - Project Registry",
+      "purpose": "Project Registry",
+      "path": "skills/Skill - 013 - Project Registry/SKILL.md"
+    },
+    "safe-demo-data-seeding": {
+      "new": "Skill - 014 - Safe Demo Data Seeding",
+      "purpose": "Safe Demo Data Seeding",
+      "path": "skills/Skill - 014 - Safe Demo Data Seeding/SKILL.md"
+    },
+    "service-repository-and-data-access-engineering": {
+      "new": "Skill - 015 - Service Repository And Data Access Engineering",
+      "purpose": "Service Repository And Data Access Engineering",
+      "path": "skills/Skill - 015 - Service Repository And Data Access Engineering/SKILL.md"
+    },
+    "tables-cards-and-data-visualization": {
+      "new": "Skill - 016 - Tables Cards And Data Visualization",
+      "purpose": "Tables Cards And Data Visualization",
+      "path": "skills/Skill - 016 - Tables Cards And Data Visualization/SKILL.md"
+    },
+    "token-efficient-agent-workflows": {
+      "new": "Skill - 017 - Token Efficient Agent Workflows",
+      "purpose": "Token Efficient Agent Workflows",
+      "path": "skills/Skill - 017 - Token Efficient Agent Workflows/SKILL.md"
+    },
+    "typography-icons-logo-and-asset-management": {
+      "new": "Skill - 018 - Typography Icons Logo And Asset Management",
+      "purpose": "Typography Icons Logo And Asset Management",
+      "path": "skills/Skill - 018 - Typography Icons Logo And Asset Management/SKILL.md"
+    },
+    "architecture-and-diagram-reconstruction": {
+      "new": "Skill - 019 - Architecture & Diagram Reconstruction",
+      "purpose": "Architecture & Diagram Reconstruction",
+      "path": "skills/Skill - 019 - Architecture & Diagram Reconstruction/SKILL.md"
+    },
+    "as-built-consistency-auditor": {
+      "new": "Skill - 020 - As-Built Consistency Auditor",
+      "purpose": "As-Built Consistency Auditor",
+      "path": "skills/Skill - 020 - As-Built Consistency Auditor/SKILL.md"
+    },
+    "documentation-recovery": {
+      "new": "Skill - 021 - Documentation Recovery",
+      "purpose": "Documentation Recovery",
+      "path": "skills/Skill - 021 - Documentation Recovery/SKILL.md"
+    },
+    "existing-project-recovery": {
+      "new": "Skill - 022 - Existing Project Recovery",
+      "purpose": "Existing Project Recovery",
+      "path": "skills/Skill - 022 - Existing Project Recovery/SKILL.md"
+    },
+    "lifecycle-gap-analyzer": {
+      "new": "Skill - 023 - Lifecycle Gap Analyzer",
+      "purpose": "Lifecycle Gap Analyzer",
+      "path": "skills/Skill - 023 - Lifecycle Gap Analyzer/SKILL.md"
+    },
+    "requirements-reconstruction": {
+      "new": "Skill - 024 - Requirements Reconstruction",
+      "purpose": "Requirements Reconstruction",
+      "path": "skills/Skill - 024 - Requirements Reconstruction/SKILL.md"
+    },
+    "reverse-engineering-and-code-archaeology": {
+      "new": "Skill - 025 - Reverse Engineering & Code Archaeology",
+      "purpose": "Reverse Engineering & Code Archaeology",
+      "path": "skills/Skill - 025 - Reverse Engineering & Code Archaeology/SKILL.md"
+    },
+    "runtime-behavior-verification": {
+      "new": "Skill - 026 - Runtime Behavior Verification",
+      "purpose": "Runtime Behavior Verification",
+      "path": "skills/Skill - 026 - Runtime Behavior Verification/SKILL.md"
+    },
+    "ui-ux-recovery": {
+      "new": "Skill - 027 - UI UX Recovery",
+      "purpose": "UI UX Recovery",
+      "path": "skills/Skill - 027 - UI UX Recovery/SKILL.md"
+    },
+    "existing-solution-and-duplicate-work-detector": {
+      "new": "Skill - 028 - Existing Solution & Duplicate Work Detector",
+      "purpose": "Existing Solution & Duplicate Work Detector",
+      "path": "skills/Skill - 028 - Existing Solution & Duplicate Work Detector/SKILL.md"
+    },
+    "feasibility-and-technology-evaluator": {
+      "new": "Skill - 029 - Feasibility & Technology Evaluator",
+      "purpose": "Feasibility & Technology Evaluator",
+      "path": "skills/Skill - 029 - Feasibility & Technology Evaluator/SKILL.md"
+    },
+    "prompt-engineering-intelligence": {
+      "new": "Skill - 030 - Prompt Engineering Intelligence",
+      "purpose": "Prompt Engineering Intelligence",
+      "path": "skills/Skill - 030 - Prompt Engineering Intelligence/SKILL.md"
+    },
+    "real-world-problem-analyst": {
+      "new": "Skill - 031 - Real-World Problem Analyst",
+      "purpose": "Real-World Problem Analyst",
+      "path": "skills/Skill - 031 - Real-World Problem Analyst/SKILL.md"
+    },
+    "requirements-engineering": {
+      "new": "Skill - 032 - Requirements Engineering",
+      "purpose": "Requirements Engineering",
+      "path": "skills/Skill - 032 - Requirements Engineering/SKILL.md"
+    },
+    "risk-and-dependency-analyzer": {
+      "new": "Skill - 033 - Risk & Dependency Analyzer",
+      "purpose": "Risk & Dependency Analyzer",
+      "path": "skills/Skill - 033 - Risk & Dependency Analyzer/SKILL.md"
+    },
+    "roadmap-and-project-planner": {
+      "new": "Skill - 034 - Roadmap & Project Planner",
+      "purpose": "Roadmap & Project Planner",
+      "path": "skills/Skill - 034 - Roadmap & Project Planner/SKILL.md"
+    },
+    "technical-research-agent": {
+      "new": "Skill - 035 - Technical Research Agent",
+      "purpose": "Technical Research Agent",
+      "path": "skills/Skill - 035 - Technical Research Agent/SKILL.md"
+    },
+    "user-approval-and-decision-manager": {
+      "new": "Skill - 036 - User Approval & Decision Manager",
+      "purpose": "User Approval & Decision Manager",
+      "path": "skills/Skill - 036 - User Approval & Decision Manager/SKILL.md"
+    },
+    "api-and-database-specialist": {
+      "new": "Skill - 037 - API & Database Specialist",
+      "purpose": "API & Database Specialist",
+      "path": "skills/Skill - 037 - API & Database Specialist/SKILL.md"
+    },
+    "architecture-and-design-implementation": {
+      "new": "Skill - 038 - Architecture & Design Implementation",
+      "purpose": "Architecture & Design Implementation",
+      "path": "skills/Skill - 038 - Architecture & Design Implementation/SKILL.md"
+    },
+    "26-backend-engineering": {
+      "new": "Skill - 039 - Backend Engineering",
+      "purpose": "Backend Engineering",
+      "path": "skills/Skill - 039 - Backend Engineering/SKILL.md"
+    },
+    "backend-spring-microservices": {
+      "new": "Skill - 040 - Backend Spring Microservices",
+      "purpose": "Backend Spring Microservices",
+      "path": "skills/Skill - 040 - Backend Spring Microservices/SKILL.md"
+    },
+    "bug-diagnosis-and-repair-agent": {
+      "new": "Skill - 041 - Bug Diagnosis & Repair Agent",
+      "purpose": "Bug Diagnosis & Repair Agent",
+      "path": "skills/Skill - 041 - Bug Diagnosis & Repair Agent/SKILL.md"
+    },
+    "code-review-and-refactoring-agent": {
+      "new": "Skill - 042 - Code Review & Refactoring Agent",
+      "purpose": "Code Review & Refactoring Agent",
+      "path": "skills/Skill - 042 - Code Review & Refactoring Agent/SKILL.md"
+    },
+    "database-initialization-and-default-data-recovery": {
+      "new": "Skill - 043 - Database Initialization And Default Data Recovery",
+      "purpose": "Database Initialization And Default Data Recovery",
+      "path": "skills/Skill - 043 - Database Initialization And Default Data Recovery/SKILL.md"
+    },
+    "database-url-encryption-and-secret-protection": {
+      "new": "Skill - 044 - Database Url Encryption And Secret Protection",
+      "purpose": "Database Url Encryption And Secret Protection",
+      "path": "skills/Skill - 044 - Database Url Encryption And Secret Protection/SKILL.md"
+    },
+    "22-design-system-ui-kit": {
+      "new": "Skill - 045 - Design System Ui Kit",
+      "purpose": "Design System Ui Kit",
+      "path": "skills/Skill - 045 - Design System Ui Kit/SKILL.md"
+    },
+    "design-tokens-and-theme-management": {
+      "new": "Skill - 046 - Design Tokens And Theme Management",
+      "purpose": "Design Tokens And Theme Management",
+      "path": "skills/Skill - 046 - Design Tokens And Theme Management/SKILL.md"
+    },
+    "development-standards-enforcer": {
+      "new": "Skill - 047 - Development Standards Enforcer",
+      "purpose": "Development Standards Enforcer",
+      "path": "skills/Skill - 047 - Development Standards Enforcer/SKILL.md"
+    },
+    "environment-and-dependency-manager": {
+      "new": "Skill - 048 - Environment & Dependency Manager",
+      "purpose": "Environment & Dependency Manager",
+      "path": "skills/Skill - 048 - Environment & Dependency Manager/SKILL.md"
+    },
+    "feature-implementation-agent": {
+      "new": "Skill - 049 - Feature Implementation Agent",
+      "purpose": "Feature Implementation Agent",
+      "path": "skills/Skill - 049 - Feature Implementation Agent/SKILL.md"
+    },
+    "figma-design-system-engineering": {
+      "new": "Skill - 050 - Figma Design System Engineering",
+      "purpose": "Figma Design System Engineering",
+      "path": "skills/Skill - 050 - Figma Design System Engineering/SKILL.md"
+    },
+    "frontend-api-client-and-request-response-management": {
+      "new": "Skill - 051 - Frontend Api Client And Request Response Management",
+      "purpose": "Frontend Api Client And Request Response Management",
+      "path": "skills/Skill - 051 - Frontend Api Client And Request Response Management/SKILL.md"
+    },
+    "frontend-architecture-and-project-structure": {
+      "new": "Skill - 052 - Frontend Architecture And Project Structure",
+      "purpose": "Frontend Architecture And Project Structure",
+      "path": "skills/Skill - 052 - Frontend Architecture And Project Structure/SKILL.md"
+    },
+    "23-frontend-engineering": {
+      "new": "Skill - 053 - Frontend Engineering",
+      "purpose": "Frontend Engineering",
+      "path": "skills/Skill - 053 - Frontend Engineering/SKILL.md"
+    },
+    "frontend-reactive-state-and-data-synchronization": {
+      "new": "Skill - 054 - Frontend Reactive State And Data Synchronization",
+      "purpose": "Frontend Reactive State And Data Synchronization",
+      "path": "skills/Skill - 054 - Frontend Reactive State And Data Synchronization/SKILL.md"
+    },
+    "frontend-spa-engineering": {
+      "new": "Skill - 055 - Frontend Spa Engineering",
+      "purpose": "Frontend Spa Engineering",
+      "path": "skills/Skill - 055 - Frontend Spa Engineering/SKILL.md"
+    },
+    "global-styling-and-design-rule-enforcement": {
+      "new": "Skill - 056 - Global Styling And Design Rule Enforcement",
+      "purpose": "Global Styling And Design Rule Enforcement",
+      "path": "skills/Skill - 056 - Global Styling And Design Rule Enforcement/SKILL.md"
+    },
+    "integration-and-compatibility-engineer": {
+      "new": "Skill - 057 - Integration & Compatibility Engineer",
+      "purpose": "Integration & Compatibility Engineer",
+      "path": "skills/Skill - 057 - Integration & Compatibility Engineer/SKILL.md"
+    },
+    "navigation-routing-and-url-design": {
+      "new": "Skill - 058 - Navigation Routing And Url Design",
+      "purpose": "Navigation Routing And Url Design",
+      "path": "skills/Skill - 058 - Navigation Routing And Url Design/SKILL.md"
+    },
+    "reusable-ui-kit-engineering": {
+      "new": "Skill - 059 - Reusable Ui Kit Engineering",
+      "purpose": "Reusable Ui Kit Engineering",
+      "path": "skills/Skill - 059 - Reusable Ui Kit Engineering/SKILL.md"
+    },
+    "spring-boot-backend-architecture": {
+      "new": "Skill - 060 - Spring Boot Backend Architecture",
+      "purpose": "Spring Boot Backend Architecture",
+      "path": "skills/Skill - 060 - Spring Boot Backend Architecture/SKILL.md"
+    },
+    "ui-design-approval-and-change-control": {
+      "new": "Skill - 061 - Ui Design Approval And Change Control",
+      "purpose": "Ui Design Approval And Change Control",
+      "path": "skills/Skill - 061 - Ui Design Approval And Change Control/SKILL.md"
+    },
+    "ui-design-plugin-and-agent-integration": {
+      "new": "Skill - 062 - Ui Design Plugin And Agent Integration",
+      "purpose": "Ui Design Plugin And Agent Integration",
+      "path": "skills/Skill - 062 - Ui Design Plugin And Agent Integration/SKILL.md"
+    },
+    "backend-validation-and-exception-management": {
+      "new": "Skill - 063 - Backend Validation And Exception Management",
+      "purpose": "Backend Validation And Exception Management",
+      "path": "skills/Skill - 063 - Backend Validation And Exception Management/SKILL.md"
+    },
+    "54-build-test-approval-gate": {
+      "new": "Skill - 064 - Build Test Approval Gate",
+      "purpose": "Build Test Approval Gate",
+      "path": "skills/Skill - 064 - Build Test Approval Gate/SKILL.md"
+    },
+    "design-system-compliance-and-regression-audit": {
+      "new": "Skill - 065 - Design System Compliance And Regression Audit",
+      "purpose": "Design System Compliance And Regression Audit",
+      "path": "skills/Skill - 065 - Design System Compliance And Regression Audit/SKILL.md"
+    },
+    "end-to-end-quality-and-acceptance-management": {
+      "new": "Skill - 066 - End To End Quality And Acceptance Management",
+      "purpose": "End To End Quality And Acceptance Management",
+      "path": "skills/Skill - 066 - End To End Quality And Acceptance Management/SKILL.md"
+    },
+    "forms-inputs-and-validation-design": {
+      "new": "Skill - 067 - Forms Inputs And Validation Design",
+      "purpose": "Forms Inputs And Validation Design",
+      "path": "skills/Skill - 067 - Forms Inputs And Validation Design/SKILL.md"
+    },
+    "frontend-forms-and-business-validation": {
+      "new": "Skill - 068 - Frontend Forms And Business Validation",
+      "purpose": "Frontend Forms And Business Validation",
+      "path": "skills/Skill - 068 - Frontend Forms And Business Validation/SKILL.md"
+    },
+    "shared-environment-test-simulation": {
+      "new": "Skill - 069 - Shared Environment Test Simulation",
+      "purpose": "Shared Environment Test Simulation",
+      "path": "skills/Skill - 069 - Shared Environment Test Simulation/SKILL.md"
+    },
+    "test-account-provisioning": {
+      "new": "Skill - 070 - Test Account Provisioning",
+      "purpose": "Test Account Provisioning",
+      "path": "skills/Skill - 070 - Test Account Provisioning/SKILL.md"
+    },
+    "unit-test-engineering": {
+      "new": "Skill - 071 - Unit Test Engineering",
+      "purpose": "Unit Test Engineering",
+      "path": "skills/Skill - 071 - Unit Test Engineering/SKILL.md"
+    },
+    "email-smtp-and-otp-authentication": {
+      "new": "Skill - 072 - Email Smtp And Otp Authentication",
+      "purpose": "Email Smtp And Otp Authentication",
+      "path": "skills/Skill - 072 - Email Smtp And Otp Authentication/SKILL.md"
+    },
+    "frontend-authentication-and-route-protection": {
+      "new": "Skill - 073 - Frontend Authentication And Route Protection",
+      "purpose": "Frontend Authentication And Route Protection",
+      "path": "skills/Skill - 073 - Frontend Authentication And Route Protection/SKILL.md"
+    },
+    "automated-testing-engineer": {
+      "new": "Skill - 074 - Automated Testing Engineer",
+      "purpose": "Automated Testing Engineer",
+      "path": "skills/Skill - 074 - Automated Testing Engineer/SKILL.md"
+    },
+    "edge-case-and-randomized-testing": {
+      "new": "Skill - 075 - Edge-Case & Randomized Testing",
+      "purpose": "Edge-Case & Randomized Testing",
+      "path": "skills/Skill - 075 - Edge-Case & Randomized Testing/SKILL.md"
+    },
+    "performance-auditor": {
+      "new": "Skill - 076 - Performance Auditor",
+      "purpose": "Performance Auditor",
+      "path": "skills/Skill - 076 - Performance Auditor/SKILL.md"
+    },
+    "quality-gate-and-readiness-evaluator": {
+      "new": "Skill - 077 - Quality Gate & Readiness Evaluator",
+      "purpose": "Quality Gate & Readiness Evaluator",
+      "path": "skills/Skill - 077 - Quality Gate & Readiness Evaluator/SKILL.md"
+    },
+    "regression-and-change-impact-analyzer": {
+      "new": "Skill - 078 - Regression & Change Impact Analyzer",
+      "purpose": "Regression & Change Impact Analyzer",
+      "path": "skills/Skill - 078 - Regression & Change Impact Analyzer/SKILL.md"
+    },
+    "requirements-to-test-traceability": {
+      "new": "Skill - 079 - Requirements-to-Test Traceability",
+      "purpose": "Requirements-to-Test Traceability",
+      "path": "skills/Skill - 079 - Requirements-to-Test Traceability/SKILL.md"
+    },
+    "security-auditor": {
+      "new": "Skill - 080 - Security Auditor",
+      "purpose": "Security Auditor",
+      "path": "skills/Skill - 080 - Security Auditor/SKILL.md"
+    },
+    "test-failure-and-root-cause-analyzer": {
+      "new": "Skill - 081 - Test Failure & Root-Cause Analyzer",
+      "purpose": "Test Failure & Root-Cause Analyzer",
+      "path": "skills/Skill - 081 - Test Failure & Root-Cause Analyzer/SKILL.md"
+    },
+    "test-strategy-generator": {
+      "new": "Skill - 082 - Test Strategy Generator",
+      "purpose": "Test Strategy Generator",
+      "path": "skills/Skill - 082 - Test Strategy Generator/SKILL.md"
+    },
+    "ui-ux-and-accessibility-tester": {
+      "new": "Skill - 083 - UI UX & Accessibility Tester",
+      "purpose": "UI UX & Accessibility Tester",
+      "path": "skills/Skill - 083 - UI UX & Accessibility Tester/SKILL.md"
+    },
+    "project-artifact-and-evidence-manager": {
+      "new": "Skill - 084 - Project Artifact & Evidence Manager",
+      "purpose": "Project Artifact & Evidence Manager",
+      "path": "skills/Skill - 084 - Project Artifact & Evidence Manager/SKILL.md"
+    },
+    "project-context-completeness-auditor": {
+      "new": "Skill - 085 - Project Context Completeness Auditor",
+      "purpose": "Project Context Completeness Auditor",
+      "path": "skills/Skill - 085 - Project Context Completeness Auditor/SKILL.md"
+    },
+    "project-handover-and-session-recovery-agent": {
+      "new": "Skill - 086 - Project Handover & Session Recovery Agent",
+      "purpose": "Project Handover & Session Recovery Agent",
+      "path": "skills/Skill - 086 - Project Handover & Session Recovery Agent/SKILL.md"
+    },
+    "project-knowledge-ingestion-engine": {
+      "new": "Skill - 087 - Project Knowledge Ingestion Engine",
+      "purpose": "Project Knowledge Ingestion Engine",
+      "path": "skills/Skill - 087 - Project Knowledge Ingestion Engine/SKILL.md"
+    },
+    "project-knowledge-synchronization-agent": {
+      "new": "Skill - 088 - Project Knowledge Synchronization Agent",
+      "purpose": "Project Knowledge Synchronization Agent",
+      "path": "skills/Skill - 088 - Project Knowledge Synchronization Agent/SKILL.md"
+    },
+    "project-manifest-and-index-generator": {
+      "new": "Skill - 089 - Project Manifest & Index Generator",
+      "purpose": "Project Manifest & Index Generator",
+      "path": "skills/Skill - 089 - Project Manifest & Index Generator/SKILL.md"
+    },
+    "universal-project-structure-architect": {
+      "new": "Skill - 090 - Universal Project Structure Architect",
+      "purpose": "Universal Project Structure Architect",
+      "path": "skills/Skill - 090 - Universal Project Structure Architect/SKILL.md"
+    },
+    "build-and-packaging-verifier": {
+      "new": "Skill - 091 - Build & Packaging Verifier",
+      "purpose": "Build & Packaging Verifier",
+      "path": "skills/Skill - 091 - Build & Packaging Verifier/SKILL.md"
+    },
+    "deployment-and-environment-engineer": {
+      "new": "Skill - 092 - Deployment & Environment Engineer",
+      "purpose": "Deployment & Environment Engineer",
+      "path": "skills/Skill - 092 - Deployment & Environment Engineer/SKILL.md"
+    },
+    "documentation-generator": {
+      "new": "Skill - 093 - Documentation Generator",
+      "purpose": "Documentation Generator",
+      "path": "skills/Skill - 093 - Documentation Generator/SKILL.md"
+    },
+    "documentation-synchronization": {
+      "new": "Skill - 094 - Documentation Synchronization",
+      "purpose": "Documentation Synchronization",
+      "path": "skills/Skill - 094 - Documentation Synchronization/SKILL.md"
+    },
+    "final-project-completion-auditor": {
+      "new": "Skill - 095 - Final Project Completion Auditor",
+      "purpose": "Final Project Completion Auditor",
+      "path": "skills/Skill - 095 - Final Project Completion Auditor/SKILL.md"
+    },
+    "production-build-and-artifact-management": {
+      "new": "Skill - 096 - Production Build And Artifact Management",
+      "purpose": "Production Build And Artifact Management",
+      "path": "skills/Skill - 096 - Production Build And Artifact Management/SKILL.md"
+    },
+    "production-environment-and-deployment-engineering": {
+      "new": "Skill - 097 - Production Environment And Deployment Engineering",
+      "purpose": "Production Environment And Deployment Engineering",
+      "path": "skills/Skill - 097 - Production Environment And Deployment Engineering/SKILL.md"
+    },
+    "project-report-and-diagram-generator": {
+      "new": "Skill - 098 - Project Report & Diagram Generator",
+      "purpose": "Project Report & Diagram Generator",
+      "path": "skills/Skill - 098 - Project Report & Diagram Generator/SKILL.md"
+    },
+    "release-and-rollback-manager": {
+      "new": "Skill - 099 - Release & Rollback Manager",
+      "purpose": "Release & Rollback Manager",
+      "path": "skills/Skill - 099 - Release & Rollback Manager/SKILL.md"
+    },
+    "52-terminal-session-build-run-manager": {
+      "new": "Skill - 100 - Terminal Session Build Run Manager",
+      "purpose": "Terminal Session Build Run Manager",
+      "path": "skills/Skill - 100 - Terminal Session Build Run Manager/SKILL.md"
+    },
+    "user-acceptance-and-sign-off-manager": {
+      "new": "Skill - 101 - User Acceptance & Sign-Off Manager",
+      "purpose": "User Acceptance & Sign-Off Manager",
+      "path": "skills/Skill - 101 - User Acceptance & Sign-Off Manager/SKILL.md"
+    },
+    "release-and-version-history-manager": {
+      "new": "Skill - 102 - Release & Version History Manager",
+      "purpose": "Release & Version History Manager",
+      "path": "skills/Skill - 102 - Release & Version History Manager/SKILL.md"
+    },
+    "roadmap-and-future-feature-manager": {
+      "new": "Skill - 103 - Roadmap & Future Feature Manager",
+      "purpose": "Roadmap & Future Feature Manager",
+      "path": "skills/Skill - 103 - Roadmap & Future Feature Manager/SKILL.md"
+    },
+    "unified-project-status-and-next-step-generator": {
+      "new": "Skill - 104 - Unified Project Status & Next-Step Generator",
+      "purpose": "Unified Project Status & Next-Step Generator",
+      "path": "skills/Skill - 104 - Unified Project Status & Next-Step Generator/SKILL.md"
+    },
+    "automated-backlog-generator": {
+      "new": "Skill - 105 - Automated Backlog Generator",
+      "purpose": "Automated Backlog Generator",
+      "path": "skills/Skill - 105 - Automated Backlog Generator/SKILL.md"
+    },
+    "automation-cost-and-performance-optimizer": {
+      "new": "Skill - 106 - Automation Cost & Performance Optimizer",
+      "purpose": "Automation Cost & Performance Optimizer",
+      "path": "skills/Skill - 106 - Automation Cost & Performance Optimizer/SKILL.md"
+    },
+    "continuous-improvement-planner": {
+      "new": "Skill - 107 - Continuous Improvement Planner",
+      "purpose": "Continuous Improvement Planner",
+      "path": "skills/Skill - 107 - Continuous Improvement Planner/SKILL.md"
+    },
+    "continuous-project-auditor": {
+      "new": "Skill - 108 - Continuous Project Auditor",
+      "purpose": "Continuous Project Auditor",
+      "path": "skills/Skill - 108 - Continuous Project Auditor/SKILL.md"
+    },
+    "dependency-and-compatibility-monitor": {
+      "new": "Skill - 109 - Dependency & Compatibility Monitor",
+      "purpose": "Dependency & Compatibility Monitor",
+      "path": "skills/Skill - 109 - Dependency & Compatibility Monitor/SKILL.md"
+    },
+    "incident-and-error-trend-analyzer": {
+      "new": "Skill - 110 - Incident & Error Trend Analyzer",
+      "purpose": "Incident & Error Trend Analyzer",
+      "path": "skills/Skill - 110 - Incident & Error Trend Analyzer/SKILL.md"
+    },
+    "project-health-dashboard": {
+      "new": "Skill - 111 - Project Health Dashboard",
+      "purpose": "Project Health Dashboard",
+      "path": "skills/Skill - 111 - Project Health Dashboard/SKILL.md"
+    },
+    "project-learning-and-lessons-manager": {
+      "new": "Skill - 112 - Project Learning & Lessons Manager",
+      "purpose": "Project Learning & Lessons Manager",
+      "path": "skills/Skill - 112 - Project Learning & Lessons Manager/SKILL.md"
+    },
+    "project-lifecycle-reassessment": {
+      "new": "Skill - 113 - Project Lifecycle Reassessment",
+      "purpose": "Project Lifecycle Reassessment",
+      "path": "skills/Skill - 113 - Project Lifecycle Reassessment/SKILL.md"
+    },
+    "skill-evaluation-and-improvement": {
+      "new": "Skill - 114 - Skill Evaluation & Improvement",
+      "purpose": "Skill Evaluation & Improvement",
+      "path": "skills/Skill - 114 - Skill Evaluation & Improvement/SKILL.md"
+    },
+    "approval-and-permission-controller": {
+      "new": "Skill - 115 - Approval & Permission Controller",
+      "purpose": "Approval & Permission Controller",
+      "path": "skills/Skill - 115 - Approval & Permission Controller/SKILL.md"
+    },
+    "automation-workflow-designer": {
+      "new": "Skill - 116 - Automation Workflow Designer",
+      "purpose": "Automation Workflow Designer",
+      "path": "skills/Skill - 116 - Automation Workflow Designer/SKILL.md"
+    },
+    "cross-project-reuse-and-knowledge-manager": {
+      "new": "Skill - 117 - Cross-Project Reuse & Knowledge Manager",
+      "purpose": "Cross-Project Reuse & Knowledge Manager",
+      "path": "skills/Skill - 117 - Cross-Project Reuse & Knowledge Manager/SKILL.md"
+    },
+    "event-and-scheduled-trigger-manager": {
+      "new": "Skill - 118 - Event & Scheduled Trigger Manager",
+      "purpose": "Event & Scheduled Trigger Manager",
+      "path": "skills/Skill - 118 - Event & Scheduled Trigger Manager/SKILL.md"
+    },
+    "logs-audit-trail-and-reporting": {
+      "new": "Skill - 119 - Logs, Audit Trail & Reporting",
+      "purpose": "Logs, Audit Trail & Reporting",
+      "path": "skills/Skill - 119 - Logs, Audit Trail & Reporting/SKILL.md"
+    },
+    "mcp-integration-specialist": {
+      "new": "Skill - 120 - MCP Integration Specialist",
+      "purpose": "MCP Integration Specialist",
+      "path": "skills/Skill - 120 - MCP Integration Specialist/SKILL.md"
+    },
+    "parallel-agent-coordinator": {
+      "new": "Skill - 121 - Parallel Agent Coordinator",
+      "purpose": "Parallel Agent Coordinator",
+      "path": "skills/Skill - 121 - Parallel Agent Coordinator/SKILL.md"
+    },
+    "skill-selection-and-orchestration-engine": {
+      "new": "Skill - 122 - Skill Selection & Orchestration Engine",
+      "purpose": "Skill Selection & Orchestration Engine",
+      "path": "skills/Skill - 122 - Skill Selection & Orchestration Engine/SKILL.md"
+    },
+    "task-queue-and-dependency-scheduler": {
+      "new": "Skill - 123 - Task Queue & Dependency Scheduler",
+      "purpose": "Task Queue & Dependency Scheduler",
+      "path": "skills/Skill - 123 - Task Queue & Dependency Scheduler/SKILL.md"
+    },
+    "workflow-failure-and-recovery-manager": {
+      "new": "Skill - 124 - Workflow Failure & Recovery Manager",
+      "purpose": "Workflow Failure & Recovery Manager",
+      "path": "skills/Skill - 124 - Workflow Failure & Recovery Manager/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-accessibility-and-inclusive-design": {
+      "new": "Skill - 125 - Accessibility and Inclusive Design",
+      "purpose": "Accessibility and Inclusive Design",
+      "path": "skills/Skill - 125 - Accessibility and Inclusive Design/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-25-accessibility-responsive-quality": {
+      "new": "Skill - 126 - Accessibility Responsive Quality",
+      "purpose": "Accessibility Responsive Quality",
+      "path": "skills/Skill - 126 - Accessibility Responsive Quality/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-advanced-inputs-and-data-formatting": {
+      "new": "Skill - 127 - Advanced Inputs and Data Formatting (Legacy Source Record)",
+      "purpose": "Advanced Inputs and Data Formatting (Legacy Source Record)",
+      "path": "skills/Skill - 127 - Advanced Inputs and Data Formatting (Legacy Source Record)/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-ai-agent-skill-governance-and-routing": {
+      "new": "Skill - 128 - AI Agent Skill Governance and Routing",
+      "purpose": "AI Agent Skill Governance and Routing",
+      "path": "skills/Skill - 128 - AI Agent Skill Governance and Routing/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-47-ai-agent-skills-tool-governance": {
+      "new": "Skill - 129 - AI Agent Skills Tool Governance",
+      "purpose": "AI Agent Skills Tool Governance",
+      "path": "skills/Skill - 129 - AI Agent Skills Tool Governance/SKILL.md"
+    },
+    "legacy-global-skills-api-contract-rest-design": {
+      "new": "Skill - 130 - API Contract and REST Design",
+      "purpose": "API Contract and REST Design",
+      "path": "skills/Skill - 130 - API Contract and REST Design/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-08-api-contract-design": {
+      "new": "Skill - 131 - API Contract Design",
+      "purpose": "API Contract Design",
+      "path": "skills/Skill - 131 - API Contract Design/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-30-api-database-integration-testing": {
+      "new": "Skill - 132 - API Database Integration Testing",
+      "purpose": "API Database Integration Testing",
+      "path": "skills/Skill - 132 - API Database Integration Testing/SKILL.md"
+    },
+    "legacy-global-skills-appsec-devsecops-hardening": {
+      "new": "Skill - 133 - Application Security and DevSecOps Hardening",
+      "purpose": "Application Security and DevSecOps Hardening",
+      "path": "skills/Skill - 133 - Application Security and DevSecOps Hardening/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-28-application-security-devsecops": {
+      "new": "Skill - 134 - Application Security DevSecOps",
+      "purpose": "Application Security DevSecOps",
+      "path": "skills/Skill - 134 - Application Security DevSecOps/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-application-shell-and-layout-system": {
+      "new": "Skill - 135 - Application Shell and Layout System (Legacy Source Record)",
+      "purpose": "Application Shell and Layout System (Legacy Source Record)",
+      "path": "skills/Skill - 135 - Application Shell and Layout System (Legacy Source Record)/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-06-architecture-design": {
+      "new": "Skill - 136 - Architecture Design",
+      "purpose": "Architecture Design",
+      "path": "skills/Skill - 136 - Architecture Design/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-architecture-diagram-and-flow-documentation": {
+      "new": "Skill - 137 - Architecture Diagram and Flow Documentation",
+      "purpose": "Architecture Diagram and Flow Documentation",
+      "path": "skills/Skill - 137 - Architecture Diagram and Flow Documentation/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-39-artifact-release-builder": {
+      "new": "Skill - 138 - Artifact Release Builder",
+      "purpose": "Artifact Release Builder",
+      "path": "skills/Skill - 138 - Artifact Release Builder/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-27-authentication-authorization-security": {
+      "new": "Skill - 139 - Authentication Authorization Security",
+      "purpose": "Authentication Authorization Security",
+      "path": "skills/Skill - 139 - Authentication Authorization Security/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-26-backend-engineering": {
+      "new": "Skill - 140 - Backend Engineering (Legacy Source Record)",
+      "purpose": "Backend Engineering (Legacy Source Record)",
+      "path": "skills/Skill - 140 - Backend Engineering (Legacy Source Record)/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-backend-integration-and-api-testing": {
+      "new": "Skill - 141 - Backend Integration and API Testing",
+      "purpose": "Backend Integration and API Testing",
+      "path": "skills/Skill - 141 - Backend Integration and API Testing/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-backend-logging-and-request-tracing": {
+      "new": "Skill - 142 - Backend Logging and Request Tracing",
+      "purpose": "Backend Logging and Request Tracing",
+      "path": "skills/Skill - 142 - Backend Logging and Request Tracing/SKILL.md"
+    },
+    "legacy-global-skills-backend-spring-microservices": {
+      "new": "Skill - 143 - Backend Spring Microservices Engineering",
+      "purpose": "Backend Spring Microservices Engineering",
+      "path": "skills/Skill - 143 - Backend Spring Microservices Engineering/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-backend-validation-and-exception-management": {
+      "new": "Skill - 144 - Backend Validation and Exception Management (Legacy Source Record)",
+      "purpose": "Backend Validation and Exception Management (Legacy Source Record)",
+      "path": "skills/Skill - 144 - Backend Validation and Exception Management (Legacy Source Record)/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-54-build-test-approval-gate": {
+      "new": "Skill - 145 - Build and Test Approval Gate",
+      "purpose": "Build and Test Approval Gate",
+      "path": "skills/Skill - 145 - Build and Test Approval Gate/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-33-build-regression-verification": {
+      "new": "Skill - 146 - Build Regression Verification",
+      "purpose": "Build Regression Verification",
+      "path": "skills/Skill - 146 - Build Regression Verification/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-build-test-and-quality-pipeline-engineering": {
+      "new": "Skill - 147 - Build Test and Quality Pipeline Engineering",
+      "purpose": "Build Test and Quality Pipeline Engineering",
+      "path": "skills/Skill - 147 - Build Test and Quality Pipeline Engineering/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-15-build-toolchain-manager": {
+      "new": "Skill - 148 - Build Toolchain Manager",
+      "purpose": "Build Toolchain Manager",
+      "path": "skills/Skill - 148 - Build Toolchain Manager/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-41-cicd-infrastructure-automation": {
+      "new": "Skill - 149 - CI CD Infrastructure Automation",
+      "purpose": "CI CD Infrastructure Automation",
+      "path": "skills/Skill - 149 - CI CD Infrastructure Automation/SKILL.md"
+    },
+    "legacy-global-skills-clean-code-refactoring": {
+      "new": "Skill - 150 - Clean Code Refactoring",
+      "purpose": "Clean Code Refactoring",
+      "path": "skills/Skill - 150 - Clean Code Refactoring/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-19-code-review-quality-gate": {
+      "new": "Skill - 151 - Code Review Quality Gate",
+      "purpose": "Code Review Quality Gate",
+      "path": "skills/Skill - 151 - Code Review Quality Gate/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-17-coding-standards": {
+      "new": "Skill - 152 - Coding Standards",
+      "purpose": "Coding Standards",
+      "path": "skills/Skill - 152 - Coding Standards/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-13-configuration-secrets-manager": {
+      "new": "Skill - 153 - Configuration Secrets Manager",
+      "purpose": "Configuration Secrets Manager",
+      "path": "skills/Skill - 153 - Configuration Secrets Manager/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-24-cross-platform-app-engineering": {
+      "new": "Skill - 154 - Cross Platform App Engineering",
+      "purpose": "Cross Platform App Engineering",
+      "path": "skills/Skill - 154 - Cross Platform App Engineering/SKILL.md"
+    },
+    "legacy-global-skills-cross-platform-mobile-engineering": {
+      "new": "Skill - 155 - Cross-Platform Mobile Engineering",
+      "purpose": "Cross-Platform Mobile Engineering",
+      "path": "skills/Skill - 155 - Cross-Platform Mobile Engineering/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-29-data-privacy-compliance": {
+      "new": "Skill - 156 - Data Privacy Compliance",
+      "purpose": "Data Privacy Compliance",
+      "path": "skills/Skill - 156 - Data Privacy Compliance/SKILL.md"
+    },
+    "legacy-global-skills-database-architecture-migration": {
+      "new": "Skill - 157 - Database Architecture and Migration",
+      "purpose": "Database Architecture and Migration",
+      "path": "skills/Skill - 157 - Database Architecture and Migration/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-database-architecture-and-multi-engine-support": {
+      "new": "Skill - 158 - Database Architecture and Multi-Engine Support",
+      "purpose": "Database Architecture and Multi-Engine Support",
+      "path": "skills/Skill - 158 - Database Architecture and Multi-Engine Support/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-09-database-data-architecture": {
+      "new": "Skill - 159 - Database Data Architecture",
+      "purpose": "Database Data Architecture",
+      "path": "skills/Skill - 159 - Database Data Architecture/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-database-initialization-and-default-data-recovery": {
+      "new": "Skill - 160 - Database Initialization and Default Data Recovery (Legacy Source Record)",
+      "purpose": "Database Initialization and Default Data Recovery (Legacy Source Record)",
+      "path": "skills/Skill - 160 - Database Initialization and Default Data Recovery (Legacy Source Record)/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-database-url-encryption-and-secret-protection": {
+      "new": "Skill - 161 - Database URL Encryption and Secret Protection (Legacy Source Record)",
+      "purpose": "Database URL Encryption and Secret Protection (Legacy Source Record)",
+      "path": "skills/Skill - 161 - Database URL Encryption and Secret Protection (Legacy Source Record)/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-12-dependency-lifecycle-manager": {
+      "new": "Skill - 162 - Dependency Lifecycle Manager",
+      "purpose": "Dependency Lifecycle Manager",
+      "path": "skills/Skill - 162 - Dependency Lifecycle Manager/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-dependency-upgrade-and-compatibility-management": {
+      "new": "Skill - 163 - Dependency Upgrade and Compatibility Management",
+      "purpose": "Dependency Upgrade and Compatibility Management",
+      "path": "skills/Skill - 163 - Dependency Upgrade and Compatibility Management/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-42-deployment-live-service-verification": {
+      "new": "Skill - 164 - Deployment Live Service Verification",
+      "purpose": "Deployment Live Service Verification",
+      "path": "skills/Skill - 164 - Deployment Live Service Verification/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-design-engineering-governance": {
+      "new": "Skill - 165 - Design Engineering Governance",
+      "purpose": "Design Engineering Governance",
+      "path": "skills/Skill - 165 - Design Engineering Governance/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-design-system-compliance-and-regression-audit": {
+      "new": "Skill - 166 - Design System Compliance and Regression Audit (Legacy Source Record)",
+      "purpose": "Design System Compliance and Regression Audit (Legacy Source Record)",
+      "path": "skills/Skill - 166 - Design System Compliance and Regression Audit (Legacy Source Record)/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-22-design-system-ui-kit": {
+      "new": "Skill - 167 - Design System UI Kit (Legacy Source Record)",
+      "purpose": "Design System UI Kit (Legacy Source Record)",
+      "path": "skills/Skill - 167 - Design System UI Kit (Legacy Source Record)/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-design-tokens-and-theme-management": {
+      "new": "Skill - 168 - Design Tokens and Theme Management (Legacy Source Record)",
+      "purpose": "Design Tokens and Theme Management (Legacy Source Record)",
+      "path": "skills/Skill - 168 - Design Tokens and Theme Management (Legacy Source Record)/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-14-developer-setup-automation": {
+      "new": "Skill - 169 - Developer Setup Automation",
+      "purpose": "Developer Setup Automation",
+      "path": "skills/Skill - 169 - Developer Setup Automation/SKILL.md"
+    },
+    "legacy-global-skills-devops-container-orchestration": {
+      "new": "Skill - 170 - DevOps and Container Orchestration",
+      "purpose": "DevOps and Container Orchestration",
+      "path": "skills/Skill - 170 - DevOps and Container Orchestration/SKILL.md"
+    },
+    "legacy-global-skills-diagnostic-debugging-rootcause": {
+      "new": "Skill - 171 - Diagnostic Debugging and Root-Cause Analysis",
+      "purpose": "Diagnostic Debugging and Root-Cause Analysis",
+      "path": "skills/Skill - 171 - Diagnostic Debugging and Root-Cause Analysis/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-docker-and-container-deployment": {
+      "new": "Skill - 172 - Docker and Container Deployment",
+      "purpose": "Docker and Container Deployment",
+      "path": "skills/Skill - 172 - Docker and Container Deployment/SKILL.md"
+    },
+    "legacy-global-skills-documentation-engineering": {
+      "new": "Skill - 173 - Documentation Engineering",
+      "purpose": "Documentation Engineering",
+      "path": "skills/Skill - 173 - Documentation Engineering/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-44-documentation-knowledge-management": {
+      "new": "Skill - 174 - Documentation Knowledge Management",
+      "purpose": "Documentation Knowledge Management",
+      "path": "skills/Skill - 174 - Documentation Knowledge Management/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-email-smtp-and-otp-authentication": {
+      "new": "Skill - 175 - Email SMTP and OTP Authentication (Legacy Source Record)",
+      "purpose": "Email SMTP and OTP Authentication (Legacy Source Record)",
+      "path": "skills/Skill - 175 - Email SMTP and OTP Authentication (Legacy Source Record)/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-end-to-end-quality-and-acceptance-management": {
+      "new": "Skill - 176 - End-to-End Quality and Acceptance Management",
+      "purpose": "End-to-End Quality and Acceptance Management",
+      "path": "skills/Skill - 176 - End-to-End Quality and Acceptance Management/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-01-engineering-governance": {
+      "new": "Skill - 177 - Engineering Governance",
+      "purpose": "Engineering Governance",
+      "path": "skills/Skill - 177 - Engineering Governance/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-50-engineering-orchestrator-continuous-improvement": {
+      "new": "Skill - 178 - Engineering Orchestrator Continuous Improvement",
+      "purpose": "Engineering Orchestrator Continuous Improvement",
+      "path": "skills/Skill - 178 - Engineering Orchestrator Continuous Improvement/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-environment-profiles-and-configuration-management": {
+      "new": "Skill - 179 - Environment Profiles and Configuration Management",
+      "purpose": "Environment Profiles and Configuration Management",
+      "path": "skills/Skill - 179 - Environment Profiles and Configuration Management/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-11-environment-readiness": {
+      "new": "Skill - 180 - Environment Readiness",
+      "purpose": "Environment Readiness",
+      "path": "skills/Skill - 180 - Environment Readiness/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-environment-readiness-and-developer-setup": {
+      "new": "Skill - 181 - Environment Readiness and Developer Setup (Legacy Source Record)",
+      "purpose": "Environment Readiness and Developer Setup (Legacy Source Record)",
+      "path": "skills/Skill - 181 - Environment Readiness and Developer Setup (Legacy Source Record)/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-figma-design-system-engineering": {
+      "new": "Skill - 182 - Figma Design System Engineering (Legacy Source Record)",
+      "purpose": "Figma Design System Engineering (Legacy Source Record)",
+      "path": "skills/Skill - 182 - Figma Design System Engineering (Legacy Source Record)/SKILL.md"
+    },
+    "legacy-global-skills-focused-function-testing": {
+      "new": "Skill - 183 - Focused Function Testing",
+      "purpose": "Focused Function Testing",
+      "path": "skills/Skill - 183 - Focused Function Testing/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-forms-inputs-and-validation-design": {
+      "new": "Skill - 184 - Forms Inputs and Validation Design (Legacy Source Record)",
+      "purpose": "Forms Inputs and Validation Design (Legacy Source Record)",
+      "path": "skills/Skill - 184 - Forms Inputs and Validation Design (Legacy Source Record)/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-frontend-api-client-and-request-response-management": {
+      "new": "Skill - 185 - Frontend API Client and Request Response Management (Legacy Source Record)",
+      "purpose": "Frontend API Client and Request Response Management (Legacy Source Record)",
+      "path": "skills/Skill - 185 - Frontend API Client and Request Response Management (Legacy Source Record)/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-frontend-architecture-and-project-structure": {
+      "new": "Skill - 186 - Frontend Architecture and Project Structure (Legacy Source Record)",
+      "purpose": "Frontend Architecture and Project Structure (Legacy Source Record)",
+      "path": "skills/Skill - 186 - Frontend Architecture and Project Structure (Legacy Source Record)/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-frontend-authentication-and-route-protection": {
+      "new": "Skill - 187 - Frontend Authentication and Route Protection (Legacy Source Record)",
+      "purpose": "Frontend Authentication and Route Protection (Legacy Source Record)",
+      "path": "skills/Skill - 187 - Frontend Authentication and Route Protection (Legacy Source Record)/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-frontend-backend-api-integration": {
+      "new": "Skill - 188 - Frontend Backend API Integration",
+      "purpose": "Frontend Backend API Integration",
+      "path": "skills/Skill - 188 - Frontend Backend API Integration/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-frontend-backend-separation-and-refactoring": {
+      "new": "Skill - 189 - Frontend Backend Separation and Refactoring",
+      "purpose": "Frontend Backend Separation and Refactoring",
+      "path": "skills/Skill - 189 - Frontend Backend Separation and Refactoring/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-23-frontend-engineering": {
+      "new": "Skill - 190 - Frontend Engineering (Legacy Source Record)",
+      "purpose": "Frontend Engineering (Legacy Source Record)",
+      "path": "skills/Skill - 190 - Frontend Engineering (Legacy Source Record)/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-frontend-forms-and-business-validation": {
+      "new": "Skill - 191 - Frontend Forms and Business Validation (Legacy Source Record)",
+      "purpose": "Frontend Forms and Business Validation (Legacy Source Record)",
+      "path": "skills/Skill - 191 - Frontend Forms and Business Validation (Legacy Source Record)/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-frontend-logging-and-diagnostics": {
+      "new": "Skill - 192 - Frontend Logging and Diagnostics",
+      "purpose": "Frontend Logging and Diagnostics",
+      "path": "skills/Skill - 192 - Frontend Logging and Diagnostics/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-frontend-performance-and-asset-optimization": {
+      "new": "Skill - 193 - Frontend Performance and Asset Optimization",
+      "purpose": "Frontend Performance and Asset Optimization",
+      "path": "skills/Skill - 193 - Frontend Performance and Asset Optimization/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-frontend-reactive-state-and-data-synchronization": {
+      "new": "Skill - 194 - Frontend Reactive State and Data Synchronization (Legacy Source Record)",
+      "purpose": "Frontend Reactive State and Data Synchronization (Legacy Source Record)",
+      "path": "skills/Skill - 194 - Frontend Reactive State and Data Synchronization (Legacy Source Record)/SKILL.md"
+    },
+    "legacy-global-skills-frontend-spa-engineering": {
+      "new": "Skill - 195 - Frontend Single Page Application Engineering",
+      "purpose": "Frontend Single Page Application Engineering",
+      "path": "skills/Skill - 195 - Frontend Single Page Application Engineering/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-frontend-testing-and-visual-regression": {
+      "new": "Skill - 196 - Frontend Testing and Visual Regression",
+      "purpose": "Frontend Testing and Visual Regression",
+      "path": "skills/Skill - 196 - Frontend Testing and Visual Regression/SKILL.md"
+    },
+    "legacy-global-skills-functional-testing": {
+      "new": "Skill - 197 - Functional Testing",
+      "purpose": "Functional Testing",
+      "path": "skills/Skill - 197 - Functional Testing/SKILL.md"
+    },
+    "legacy-global-skills-global-ai-skills-automation-system": {
+      "new": "Skill - 198 - Global AI Skills & Automation System",
+      "purpose": "Global AI Skills & Automation System",
+      "path": "skills/Skill - 198 - Global AI Skills & Automation System/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-global-styling-and-design-rule-enforcement": {
+      "new": "Skill - 199 - Global Styling and Design Rule Enforcement (Legacy Source Record)",
+      "purpose": "Global Styling and Design Rule Enforcement (Legacy Source Record)",
+      "path": "skills/Skill - 199 - Global Styling and Design Rule Enforcement (Legacy Source Record)/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-40-hosting-platform-adapter": {
+      "new": "Skill - 200 - Hosting Platform Adapter",
+      "purpose": "Hosting Platform Adapter",
+      "path": "skills/Skill - 200 - Hosting Platform Adapter/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-16-implementation-planner": {
+      "new": "Skill - 201 - Implementation Planner",
+      "purpose": "Implementation Planner",
+      "path": "skills/Skill - 201 - Implementation Planner/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-38-incident-response-root-cause": {
+      "new": "Skill - 202 - Incident Response Root Cause",
+      "purpose": "Incident Response Root Cause",
+      "path": "skills/Skill - 202 - Incident Response Root Cause/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-10-integration-dependency-mapping": {
+      "new": "Skill - 203 - Integration Dependency Mapping",
+      "purpose": "Integration Dependency Mapping",
+      "path": "skills/Skill - 203 - Integration Dependency Mapping/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-loading-skeleton-and-feedback-system": {
+      "new": "Skill - 204 - Loading Skeleton and Feedback System (Legacy Source Record)",
+      "purpose": "Loading Skeleton and Feedback System (Legacy Source Record)",
+      "path": "skills/Skill - 204 - Loading Skeleton and Feedback System (Legacy Source Record)/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-36-logging-error-diagnostics": {
+      "new": "Skill - 205 - Logging Error Diagnostics",
+      "purpose": "Logging Error Diagnostics",
+      "path": "skills/Skill - 205 - Logging Error Diagnostics/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-logging-monitoring-and-incident-management": {
+      "new": "Skill - 206 - Logging Monitoring and Incident Management",
+      "purpose": "Logging Monitoring and Incident Management",
+      "path": "skills/Skill - 206 - Logging Monitoring and Incident Management/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-48-mcp-tool-integration": {
+      "new": "Skill - 207 - MCP Tool Integration",
+      "purpose": "MCP Tool Integration",
+      "path": "skills/Skill - 207 - MCP Tool Integration/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-46-migration-upgrade-compatibility": {
+      "new": "Skill - 208 - Migration Upgrade Compatibility",
+      "purpose": "Migration Upgrade Compatibility",
+      "path": "skills/Skill - 208 - Migration Upgrade Compatibility/SKILL.md"
+    },
+    "legacy-global-skills-mlops-llm-pipeline-engineering": {
+      "new": "Skill - 209 - MLOps and LLM Pipeline Engineering",
+      "purpose": "MLOps and LLM Pipeline Engineering",
+      "path": "skills/Skill - 209 - MLOps and LLM Pipeline Engineering/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-navigation-routing-and-url-design": {
+      "new": "Skill - 210 - Navigation Routing and URL Design (Legacy Source Record)",
+      "purpose": "Navigation Routing and URL Design (Legacy Source Record)",
+      "path": "skills/Skill - 210 - Navigation Routing and URL Design (Legacy Source Record)/SKILL.md"
+    },
+    "legacy-global-skills-neuro-symbolic-math-reasoning": {
+      "new": "Skill - 211 - Neuro-Symbolic Mathematical Reasoning",
+      "purpose": "Neuro-Symbolic Mathematical Reasoning",
+      "path": "skills/Skill - 211 - Neuro-Symbolic Mathematical Reasoning/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-37-observability-monitoring-alerting": {
+      "new": "Skill - 212 - Observability Monitoring Alerting",
+      "purpose": "Observability Monitoring Alerting",
+      "path": "skills/Skill - 212 - Observability Monitoring Alerting/SKILL.md"
+    },
+    "legacy-global-skills-performance-profiling-scalability": {
+      "new": "Skill - 213 - Performance Profiling and Scalability Engineering",
+      "purpose": "Performance Profiling and Scalability Engineering",
+      "path": "skills/Skill - 213 - Performance Profiling and Scalability Engineering/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-34-performance-scalability-engineering": {
+      "new": "Skill - 214 - Performance Scalability Engineering",
+      "purpose": "Performance Scalability Engineering",
+      "path": "skills/Skill - 214 - Performance Scalability Engineering/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-production-build-and-artifact-management": {
+      "new": "Skill - 215 - Production Build and Artifact Management (Legacy Source Record)",
+      "purpose": "Production Build and Artifact Management (Legacy Source Record)",
+      "path": "skills/Skill - 215 - Production Build and Artifact Management (Legacy Source Record)/SKILL.md"
+    },
+    "legacy-global-skills-production-deployment-verification": {
+      "new": "Skill - 216 - Production Deployment and Live Verification",
+      "purpose": "Production Deployment and Live Verification",
+      "path": "skills/Skill - 216 - Production Deployment and Live Verification/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-production-environment-and-deployment-engineering": {
+      "new": "Skill - 217 - Production Environment and Deployment Engineering (Legacy Source Record)",
+      "purpose": "Production Environment and Deployment Engineering (Legacy Source Record)",
+      "path": "skills/Skill - 217 - Production Environment and Deployment Engineering (Legacy Source Record)/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-53-production-environment-deployment-engineer": {
+      "new": "Skill - 218 - Production Environment Deployment Engineer",
+      "purpose": "Production Environment Deployment Engineer",
+      "path": "skills/Skill - 218 - Production Environment Deployment Engineer/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-43-production-readiness-release-management": {
+      "new": "Skill - 219 - Production Readiness Release Management",
+      "purpose": "Production Readiness Release Management",
+      "path": "skills/Skill - 219 - Production Readiness Release Management/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-project-continuity-and-change-impact-management": {
+      "new": "Skill - 220 - Project Continuity and Change Impact Management",
+      "purpose": "Project Continuity and Change Impact Management",
+      "path": "skills/Skill - 220 - Project Continuity and Change Impact Management/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-project-dependency-and-structure-governance": {
+      "new": "Skill - 221 - Project Dependency and Structure Governance",
+      "purpose": "Project Dependency and Structure Governance",
+      "path": "skills/Skill - 221 - Project Dependency and Structure Governance/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-project-discovery-and-design-audit": {
+      "new": "Skill - 222 - Project Discovery and Design Audit",
+      "purpose": "Project Discovery and Design Audit",
+      "path": "skills/Skill - 222 - Project Discovery and Design Audit/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-02-project-discovery-audit": {
+      "new": "Skill - 223 - Project Discovery Audit",
+      "purpose": "Project Discovery Audit",
+      "path": "skills/Skill - 223 - Project Discovery Audit/SKILL.md"
+    },
+    "legacy-global-skills-project-discovery-audit": {
+      "new": "Skill - 224 - Project Discovery Audit (Legacy Source Record)",
+      "purpose": "Project Discovery Audit (Legacy Source Record)",
+      "path": "skills/Skill - 224 - Project Discovery Audit (Legacy Source Record)/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-project-documentation-and-readme-engineering": {
+      "new": "Skill - 225 - Project Documentation and README Engineering",
+      "purpose": "Project Documentation and README Engineering",
+      "path": "skills/Skill - 225 - Project Documentation and README Engineering/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-05-project-planning-traceability": {
+      "new": "Skill - 226 - Project Planning Traceability",
+      "purpose": "Project Planning Traceability",
+      "path": "skills/Skill - 226 - Project Planning Traceability/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-07-project-structure-manager": {
+      "new": "Skill - 227 - Project Structure Manager",
+      "purpose": "Project Structure Manager",
+      "path": "skills/Skill - 227 - Project Structure Manager/SKILL.md"
+    },
+    "legacy-global-skills-qa-test-automation-strategy": {
+      "new": "Skill - 228 - QA and Test Automation Strategy",
+      "purpose": "QA and Test Automation Strategy",
+      "path": "skills/Skill - 228 - QA and Test Automation Strategy/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-18-refactoring-maintenance": {
+      "new": "Skill - 229 - Refactoring Maintenance",
+      "purpose": "Refactoring Maintenance",
+      "path": "skills/Skill - 229 - Refactoring Maintenance/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-35-reliability-fault-recovery": {
+      "new": "Skill - 230 - Reliability Fault Recovery",
+      "purpose": "Reliability Fault Recovery",
+      "path": "skills/Skill - 230 - Reliability Fault Recovery/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-requirements-and-user-journey-engineering": {
+      "new": "Skill - 231 - Requirements and User Journey Engineering",
+      "purpose": "Requirements and User Journey Engineering",
+      "path": "skills/Skill - 231 - Requirements and User Journey Engineering/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-03-requirements-engineering": {
+      "new": "Skill - 232 - Requirements Engineering (Legacy Source Record)",
+      "purpose": "Requirements Engineering (Legacy Source Record)",
+      "path": "skills/Skill - 232 - Requirements Engineering (Legacy Source Record)/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-responsive-design-and-device-compatibility": {
+      "new": "Skill - 233 - Responsive Design and Device Compatibility",
+      "purpose": "Responsive Design and Device Compatibility",
+      "path": "skills/Skill - 233 - Responsive Design and Device Compatibility/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-rest-api-controller-and-contract-engineering": {
+      "new": "Skill - 234 - REST API Controller and Contract Engineering",
+      "purpose": "REST API Controller and Contract Engineering",
+      "path": "skills/Skill - 234 - REST API Controller and Contract Engineering/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-reusable-ui-kit-engineering": {
+      "new": "Skill - 235 - Reusable UI Kit Engineering (Legacy Source Record)",
+      "purpose": "Reusable UI Kit Engineering (Legacy Source Record)",
+      "path": "skills/Skill - 235 - Reusable UI Kit Engineering (Legacy Source Record)/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-role-based-access-and-api-security": {
+      "new": "Skill - 236 - Role-Based Access and API Security",
+      "purpose": "Role-Based Access and API Security",
+      "path": "skills/Skill - 236 - Role-Based Access and API Security/SKILL.md"
+    },
+    "legacy-global-skills-safe-demo-data-seeding": {
+      "new": "Skill - 237 - Safe Demo Data Seeding (Legacy Source Record)",
+      "purpose": "Safe Demo Data Seeding (Legacy Source Record)",
+      "path": "skills/Skill - 237 - Safe Demo Data Seeding (Legacy Source Record)/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-sdlc-and-design-gate-manager": {
+      "new": "Skill - 238 - SDLC and Design Gate Manager",
+      "purpose": "SDLC and Design Gate Manager",
+      "path": "skills/Skill - 238 - SDLC and Design Gate Manager/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-04-sdlc-lifecycle-manager": {
+      "new": "Skill - 239 - SDLC Lifecycle Manager",
+      "purpose": "SDLC Lifecycle Manager",
+      "path": "skills/Skill - 239 - SDLC Lifecycle Manager/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-51-sdlc-model-generation": {
+      "new": "Skill - 240 - SDLC Model Generation",
+      "purpose": "SDLC Model Generation",
+      "path": "skills/Skill - 240 - SDLC Model Generation/SKILL.md"
+    },
+    "legacy-global-skills-sdlc-planning-governance": {
+      "new": "Skill - 241 - SDLC Planning and Governance",
+      "purpose": "SDLC Planning and Governance",
+      "path": "skills/Skill - 241 - SDLC Planning and Governance/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-security-privacy-and-data-governance": {
+      "new": "Skill - 242 - Security Privacy and Data Governance",
+      "purpose": "Security Privacy and Data Governance",
+      "path": "skills/Skill - 242 - Security Privacy and Data Governance/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-service-repository-and-data-access-engineering": {
+      "new": "Skill - 243 - Service Repository and Data Access Engineering (Legacy Source Record)",
+      "purpose": "Service Repository and Data Access Engineering (Legacy Source Record)",
+      "path": "skills/Skill - 243 - Service Repository and Data Access Engineering (Legacy Source Record)/SKILL.md"
+    },
+    "legacy-global-skills-shared-environment-test-simulation": {
+      "new": "Skill - 244 - Shared Environment Test Simulation (Legacy Source Record)",
+      "purpose": "Shared Environment Test Simulation (Legacy Source Record)",
+      "path": "skills/Skill - 244 - Shared Environment Test Simulation (Legacy Source Record)/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-skills-validation-versioning-and-release": {
+      "new": "Skill - 245 - Skills Validation Versioning and Release",
+      "purpose": "Skills Validation Versioning and Release",
+      "path": "skills/Skill - 245 - Skills Validation Versioning and Release/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-spring-boot-backend-architecture": {
+      "new": "Skill - 246 - Spring Boot Backend Architecture (Legacy Source Record)",
+      "purpose": "Spring Boot Backend Architecture (Legacy Source Record)",
+      "path": "skills/Skill - 246 - Spring Boot Backend Architecture (Legacy Source Record)/SKILL.md"
+    },
+    "legacy-global-skills-system-architecture-design": {
+      "new": "Skill - 247 - System Architecture Design",
+      "purpose": "System Architecture Design",
+      "path": "skills/Skill - 247 - System Architecture Design/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-tables-cards-and-data-visualization": {
+      "new": "Skill - 248 - Tables Cards and Data Visualization (Legacy Source Record)",
+      "purpose": "Tables Cards and Data Visualization (Legacy Source Record)",
+      "path": "skills/Skill - 248 - Tables Cards and Data Visualization (Legacy Source Record)/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-20-technical-debt-management": {
+      "new": "Skill - 249 - Technical Debt Management",
+      "purpose": "Technical Debt Management",
+      "path": "skills/Skill - 249 - Technical Debt Management/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-45-technology-watch-dependency-updates": {
+      "new": "Skill - 250 - Technology Watch Dependency Updates",
+      "purpose": "Technology Watch Dependency Updates",
+      "path": "skills/Skill - 250 - Technology Watch Dependency Updates/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-terminal-session-and-command-orchestration": {
+      "new": "Skill - 251 - Terminal Session and Command Orchestration",
+      "purpose": "Terminal Session and Command Orchestration",
+      "path": "skills/Skill - 251 - Terminal Session and Command Orchestration/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-52-terminal-session-build-run-manager": {
+      "new": "Skill - 252 - Terminal Session Build Run Manager (Legacy Source Record)",
+      "purpose": "Terminal Session Build Run Manager (Legacy Source Record)",
+      "path": "skills/Skill - 252 - Terminal Session Build Run Manager (Legacy Source Record)/SKILL.md"
+    },
+    "legacy-global-skills-test-account-provisioning": {
+      "new": "Skill - 253 - Test Account Provisioning (Legacy Source Record)",
+      "purpose": "Test Account Provisioning (Legacy Source Record)",
+      "path": "skills/Skill - 253 - Test Account Provisioning (Legacy Source Record)/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-32-test-automation-engineering": {
+      "new": "Skill - 254 - Test Automation Engineering",
+      "purpose": "Test Automation Engineering",
+      "path": "skills/Skill - 254 - Test Automation Engineering/SKILL.md"
+    },
+    "legacy-global-skills-test-automation-engineering": {
+      "new": "Skill - 255 - Test Automation Engineering (Legacy Source Record)",
+      "purpose": "Test Automation Engineering (Legacy Source Record)",
+      "path": "skills/Skill - 255 - Test Automation Engineering (Legacy Source Record)/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-31-test-strategy-management": {
+      "new": "Skill - 256 - Test Strategy Management",
+      "purpose": "Test Strategy Management",
+      "path": "skills/Skill - 256 - Test Strategy Management/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-token-efficient-agent-workflows": {
+      "new": "Skill - 257 - Token Efficient Agent Workflows (Legacy Source Record)",
+      "purpose": "Token Efficient Agent Workflows (Legacy Source Record)",
+      "path": "skills/Skill - 257 - Token Efficient Agent Workflows (Legacy Source Record)/SKILL.md"
+    },
+    "legacy-global-skills-token-efficient-agent-workflows": {
+      "new": "Skill - 258 - Token-Efficient Agent Workflows",
+      "purpose": "Token-Efficient Agent Workflows",
+      "path": "skills/Skill - 258 - Token-Efficient Agent Workflows/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-typography-icons-logo-and-asset-management": {
+      "new": "Skill - 259 - Typography Icons Logo and Asset Management (Legacy Source Record)",
+      "purpose": "Typography Icons Logo and Asset Management (Legacy Source Record)",
+      "path": "skills/Skill - 259 - Typography Icons Logo and Asset Management (Legacy Source Record)/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-ui-design-approval-and-change-control": {
+      "new": "Skill - 260 - UI Design Approval and Change Control (Legacy Source Record)",
+      "purpose": "UI Design Approval and Change Control (Legacy Source Record)",
+      "path": "skills/Skill - 260 - UI Design Approval and Change Control (Legacy Source Record)/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-ui-design-plugin-and-agent-integration": {
+      "new": "Skill - 261 - UI Design Plugin and Agent Integration (Legacy Source Record)",
+      "purpose": "UI Design Plugin and Agent Integration (Legacy Source Record)",
+      "path": "skills/Skill - 261 - UI Design Plugin and Agent Integration (Legacy Source Record)/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-ui-ux-research-and-information-architecture": {
+      "new": "Skill - 262 - UI UX Research and Information Architecture",
+      "purpose": "UI UX Research and Information Architecture",
+      "path": "skills/Skill - 262 - UI UX Research and Information Architecture/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-21-ui-ux-research-design": {
+      "new": "Skill - 263 - UI UX Research Design",
+      "purpose": "UI UX Research Design",
+      "path": "skills/Skill - 263 - UI UX Research Design/SKILL.md"
+    },
+    "legacy-global-skills-unit-test-engineering": {
+      "new": "Skill - 264 - Unit Test Engineering (Legacy Source Record)",
+      "purpose": "Unit Test Engineering (Legacy Source Record)",
+      "path": "skills/Skill - 264 - Unit Test Engineering (Legacy Source Record)/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-universal-project-setup": {
+      "new": "Skill - 265 - Universal Project Setup and Run",
+      "purpose": "Universal Project Setup and Run",
+      "path": "skills/Skill - 265 - Universal Project Setup and Run/SKILL.md"
+    },
+    "legacy-global-skills-workflow-automation-scheduling": {
+      "new": "Skill - 266 - Workflow Automation and Scheduling",
+      "purpose": "Workflow Automation and Scheduling",
+      "path": "skills/Skill - 266 - Workflow Automation and Scheduling/SKILL.md"
+    },
+    "legacy-enterprise-ai-engineering-skills-49-workflow-automation-scheduling": {
+      "new": "Skill - 267 - Workflow Automation Scheduling",
+      "purpose": "Workflow Automation Scheduling",
+      "path": "skills/Skill - 267 - Workflow Automation Scheduling/SKILL.md"
+    }
+  }
+}

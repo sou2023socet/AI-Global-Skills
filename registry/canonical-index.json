@@ -1,0 +1,1532 @@
+{
+  "version": "2.0",
+  "description": "Authoritative ordered index of active canonical capabilities.",
+  "skillCount": 124,
+  "sourceSkillCount": 143,
+  "skills": [
+    {
+      "id": "advanced-inputs-and-data-formatting",
+      "name": "Skill - 001 - Advanced Inputs And Data Formatting",
+      "lifecycleGroup": "foundation",
+      "executionOrder": 10,
+      "candidateIds": [],
+      "sourceSkillCount": 1,
+      "dependencies": [],
+      "status": "structurally_validated",
+      "path": "skills/Skill - 001 - Advanced Inputs And Data Formatting/SKILL.md"
+    },
+    {
+      "id": "application-shell-and-layout-system",
+      "name": "Skill - 002 - Application Shell And Layout System",
+      "lifecycleGroup": "foundation",
+      "executionOrder": 10,
+      "candidateIds": [],
+      "sourceSkillCount": 1,
+      "dependencies": [],
+      "status": "structurally_validated",
+      "path": "skills/Skill - 002 - Application Shell And Layout System/SKILL.md"
+    },
+    {
+      "id": "cross-platform-mobile-engineering",
+      "name": "Skill - 003 - Cross Platform Mobile Engineering",
+      "lifecycleGroup": "foundation",
+      "executionOrder": 10,
+      "candidateIds": [],
+      "sourceSkillCount": 2,
+      "dependencies": [],
+      "status": "structurally_validated",
+      "path": "skills/Skill - 003 - Cross Platform Mobile Engineering/SKILL.md"
+    },
+    {
+      "id": "environment-readiness-and-developer-setup",
+      "name": "Skill - 004 - Environment Readiness And Developer Setup",
+      "lifecycleGroup": "foundation",
+      "executionOrder": 10,
+      "candidateIds": [],
+      "sourceSkillCount": 1,
+      "dependencies": [],
+      "status": "structurally_validated",
+      "path": "skills/Skill - 004 - Environment Readiness And Developer Setup/SKILL.md"
+    },
+    {
+      "id": "evidence-and-status-engine",
+      "name": "Skill - 005 - Evidence & Status Engine",
+      "lifecycleGroup": "foundation",
+      "executionOrder": 10,
+      "candidateIds": [
+        "06"
+      ],
+      "sourceSkillCount": 0,
+      "dependencies": [],
+      "status": "implemented",
+      "path": "skills/Skill - 005 - Evidence & Status Engine/SKILL.md"
+    },
+    {
+      "id": "global-development-rules",
+      "name": "Skill - 006 - Global Development Rules",
+      "lifecycleGroup": "foundation",
+      "executionOrder": 10,
+      "candidateIds": [
+        "02"
+      ],
+      "sourceSkillCount": 1,
+      "dependencies": [],
+      "status": "implemented",
+      "path": "skills/Skill - 006 - Global Development Rules/SKILL.md"
+    },
+    {
+      "id": "global-skills-framework",
+      "name": "Skill - 007 - Global Skills Framework",
+      "lifecycleGroup": "foundation",
+      "executionOrder": 10,
+      "candidateIds": [
+        "01"
+      ],
+      "sourceSkillCount": 2,
+      "dependencies": [],
+      "status": "implemented",
+      "path": "skills/Skill - 007 - Global Skills Framework/SKILL.md"
+    },
+    {
+      "id": "loading-skeleton-and-feedback-system",
+      "name": "Skill - 008 - Loading Skeleton And Feedback System",
+      "lifecycleGroup": "foundation",
+      "executionOrder": 10,
+      "candidateIds": [],
+      "sourceSkillCount": 1,
+      "dependencies": [],
+      "status": "structurally_validated",
+      "path": "skills/Skill - 008 - Loading Skeleton And Feedback System/SKILL.md"
+    },
+    {
+      "id": "mlops-llm-pipeline-engineering",
+      "name": "Skill - 009 - Mlops Llm Pipeline Engineering",
+      "lifecycleGroup": "foundation",
+      "executionOrder": 10,
+      "candidateIds": [],
+      "sourceSkillCount": 1,
+      "dependencies": [],
+      "status": "structurally_validated",
+      "path": "skills/Skill - 009 - Mlops Llm Pipeline Engineering/SKILL.md"
+    },
+    {
+      "id": "neuro-symbolic-math-reasoning",
+      "name": "Skill - 010 - Neuro Symbolic Math Reasoning",
+      "lifecycleGroup": "foundation",
+      "executionOrder": 10,
+      "candidateIds": [],
+      "sourceSkillCount": 1,
+      "dependencies": [],
+      "status": "structurally_validated",
+      "path": "skills/Skill - 010 - Neuro Symbolic Math Reasoning/SKILL.md"
+    },
+    {
+      "id": "project-context-analyzer",
+      "name": "Skill - 011 - Project Context Analyzer",
+      "lifecycleGroup": "foundation",
+      "executionOrder": 10,
+      "candidateIds": [
+        "04"
+      ],
+      "sourceSkillCount": 3,
+      "dependencies": [],
+      "status": "implemented",
+      "path": "skills/Skill - 011 - Project Context Analyzer/SKILL.md"
+    },
+    {
+      "id": "project-memory-and-handover",
+      "name": "Skill - 012 - Project Memory & Handover",
+      "lifecycleGroup": "foundation",
+      "executionOrder": 10,
+      "candidateIds": [
+        "05"
+      ],
+      "sourceSkillCount": 1,
+      "dependencies": [],
+      "status": "implemented",
+      "path": "skills/Skill - 012 - Project Memory & Handover/SKILL.md"
+    },
+    {
+      "id": "project-registry",
+      "name": "Skill - 013 - Project Registry",
+      "lifecycleGroup": "foundation",
+      "executionOrder": 10,
+      "candidateIds": [
+        "03"
+      ],
+      "sourceSkillCount": 0,
+      "dependencies": [],
+      "status": "implemented",
+      "path": "skills/Skill - 013 - Project Registry/SKILL.md"
+    },
+    {
+      "id": "safe-demo-data-seeding",
+      "name": "Skill - 014 - Safe Demo Data Seeding",
+      "lifecycleGroup": "foundation",
+      "executionOrder": 10,
+      "candidateIds": [],
+      "sourceSkillCount": 1,
+      "dependencies": [],
+      "status": "structurally_validated",
+      "path": "skills/Skill - 014 - Safe Demo Data Seeding/SKILL.md"
+    },
+    {
+      "id": "service-repository-and-data-access-engineering",
+      "name": "Skill - 015 - Service Repository And Data Access Engineering",
+      "lifecycleGroup": "foundation",
+      "executionOrder": 10,
+      "candidateIds": [],
+      "sourceSkillCount": 1,
+      "dependencies": [],
+      "status": "structurally_validated",
+      "path": "skills/Skill - 015 - Service Repository And Data Access Engineering/SKILL.md"
+    },
+    {
+      "id": "tables-cards-and-data-visualization",
+      "name": "Skill - 016 - Tables Cards And Data Visualization",
+      "lifecycleGroup": "foundation",
+      "executionOrder": 10,
+      "candidateIds": [],
+      "sourceSkillCount": 1,
+      "dependencies": [],
+      "status": "structurally_validated",
+      "path": "skills/Skill - 016 - Tables Cards And Data Visualization/SKILL.md"
+    },
+    {
+      "id": "token-efficient-agent-workflows",
+      "name": "Skill - 017 - Token Efficient Agent Workflows",
+      "lifecycleGroup": "foundation",
+      "executionOrder": 10,
+      "candidateIds": [],
+      "sourceSkillCount": 2,
+      "dependencies": [],
+      "status": "structurally_validated",
+      "path": "skills/Skill - 017 - Token Efficient Agent Workflows/SKILL.md"
+    },
+    {
+      "id": "typography-icons-logo-and-asset-management",
+      "name": "Skill - 018 - Typography Icons Logo And Asset Management",
+      "lifecycleGroup": "foundation",
+      "executionOrder": 10,
+      "candidateIds": [],
+      "sourceSkillCount": 1,
+      "dependencies": [],
+      "status": "structurally_validated",
+      "path": "skills/Skill - 018 - Typography Icons Logo And Asset Management/SKILL.md"
+    },
+    {
+      "id": "architecture-and-diagram-reconstruction",
+      "name": "Skill - 019 - Architecture & Diagram Reconstruction",
+      "lifecycleGroup": "recovery",
+      "executionOrder": 20,
+      "candidateIds": [
+        "11"
+      ],
+      "sourceSkillCount": 1,
+      "dependencies": [],
+      "status": "implemented",
+      "path": "skills/Skill - 019 - Architecture & Diagram Reconstruction/SKILL.md"
+    },
+    {
+      "id": "as-built-consistency-auditor",
+      "name": "Skill - 020 - As-Built Consistency Auditor",
+      "lifecycleGroup": "recovery",
+      "executionOrder": 20,
+      "candidateIds": [
+        "14"
+      ],
+      "sourceSkillCount": 0,
+      "dependencies": [],
+      "status": "implemented",
+      "path": "skills/Skill - 020 - As-Built Consistency Auditor/SKILL.md"
+    },
+    {
+      "id": "documentation-recovery",
+      "name": "Skill - 021 - Documentation Recovery",
+      "lifecycleGroup": "recovery",
+      "executionOrder": 20,
+      "candidateIds": [
+        "13"
+      ],
+      "sourceSkillCount": 0,
+      "dependencies": [],
+      "status": "implemented",
+      "path": "skills/Skill - 021 - Documentation Recovery/SKILL.md"
+    },
+    {
+      "id": "existing-project-recovery",
+      "name": "Skill - 022 - Existing Project Recovery",
+      "lifecycleGroup": "recovery",
+      "executionOrder": 20,
+      "candidateIds": [
+        "07"
+      ],
+      "sourceSkillCount": 0,
+      "dependencies": [],
+      "status": "implemented",
+      "path": "skills/Skill - 022 - Existing Project Recovery/SKILL.md"
+    },
+    {
+      "id": "lifecycle-gap-analyzer",
+      "name": "Skill - 023 - Lifecycle Gap Analyzer",
+      "lifecycleGroup": "recovery",
+      "executionOrder": 20,
+      "candidateIds": [
+        "15"
+      ],
+      "sourceSkillCount": 0,
+      "dependencies": [],
+      "status": "implemented",
+      "path": "skills/Skill - 023 - Lifecycle Gap Analyzer/SKILL.md"
+    },
+    {
+      "id": "requirements-reconstruction",
+      "name": "Skill - 024 - Requirements Reconstruction",
+      "lifecycleGroup": "recovery",
+      "executionOrder": 20,
+      "candidateIds": [
+        "10"
+      ],
+      "sourceSkillCount": 0,
+      "dependencies": [],
+      "status": "implemented",
+      "path": "skills/Skill - 024 - Requirements Reconstruction/SKILL.md"
+    },
+    {
+      "id": "reverse-engineering-and-code-archaeology",
+      "name": "Skill - 025 - Reverse Engineering & Code Archaeology",
+      "lifecycleGroup": "recovery",
+      "executionOrder": 20,
+      "candidateIds": [
+        "08"
+      ],
+      "sourceSkillCount": 0,
+      "dependencies": [],
+      "status": "implemented",
+      "path": "skills/Skill - 025 - Reverse Engineering & Code Archaeology/SKILL.md"
+    },
+    {
+      "id": "runtime-behavior-verification",
+      "name": "Skill - 026 - Runtime Behavior Verification",
+      "lifecycleGroup": "recovery",
+      "executionOrder": 20,
+      "candidateIds": [
+        "09"
+      ],
+      "sourceSkillCount": 0,
+      "dependencies": [],
+      "status": "implemented",
+      "path": "skills/Skill - 026 - Runtime Behavior Verification/SKILL.md"
+    },
+    {
+      "id": "ui-ux-recovery",
+      "name": "Skill - 027 - UI UX Recovery",
+      "lifecycleGroup": "recovery",
+      "executionOrder": 20,
+      "candidateIds": [
+        "12"
+      ],
+      "sourceSkillCount": 2,
+      "dependencies": [],
+      "status": "implemented",
+      "path": "skills/Skill - 027 - UI UX Recovery/SKILL.md"
+    },
+    {
+      "id": "existing-solution-and-duplicate-work-detector",
+      "name": "Skill - 028 - Existing Solution & Duplicate Work Detector",
+      "lifecycleGroup": "research-planning",
+      "executionOrder": 30,
+      "candidateIds": [
+        "18"
+      ],
+      "sourceSkillCount": 0,
+      "dependencies": [],
+      "status": "implemented",
+      "path": "skills/Skill - 028 - Existing Solution & Duplicate Work Detector/SKILL.md"
+    },
+    {
+      "id": "feasibility-and-technology-evaluator",
+      "name": "Skill - 029 - Feasibility & Technology Evaluator",
+      "lifecycleGroup": "research-planning",
+      "executionOrder": 30,
+      "candidateIds": [
+        "19"
+      ],
+      "sourceSkillCount": 0,
+      "dependencies": [],
+      "status": "implemented",
+      "path": "skills/Skill - 029 - Feasibility & Technology Evaluator/SKILL.md"
+    },
+    {
+      "id": "prompt-engineering-intelligence",
+      "name": "Skill - 030 - Prompt Engineering Intelligence",
+      "lifecycleGroup": "research-planning",
+      "executionOrder": 30,
+      "candidateIds": [
+        "21"
+      ],
+      "sourceSkillCount": 0,
+      "dependencies": [],
+      "status": "implemented",
+      "path": "skills/Skill - 030 - Prompt Engineering Intelligence/SKILL.md"
+    },
+    {
+      "id": "real-world-problem-analyst",
+      "name": "Skill - 031 - Real-World Problem Analyst",
+      "lifecycleGroup": "research-planning",
+      "executionOrder": 30,
+      "candidateIds": [
+        "16"
+      ],
+      "sourceSkillCount": 0,
+      "dependencies": [],
+      "status": "implemented",
+      "path": "skills/Skill - 031 - Real-World Problem Analyst/SKILL.md"
+    },
+    {
+      "id": "requirements-engineering",
+      "name": "Skill - 032 - Requirements Engineering",
+      "lifecycleGroup": "research-planning",
+      "executionOrder": 30,
+      "candidateIds": [
+        "20"
+      ],
+      "sourceSkillCount": 2,
+      "dependencies": [],
+      "status": "implemented",
+      "path": "skills/Skill - 032 - Requirements Engineering/SKILL.md"
+    },
+    {
+      "id": "risk-and-dependency-analyzer",
+      "name": "Skill - 033 - Risk & Dependency Analyzer",
+      "lifecycleGroup": "research-planning",
+      "executionOrder": 30,
+      "candidateIds": [
+        "23"
+      ],
+      "sourceSkillCount": 0,
+      "dependencies": [],
+      "status": "implemented",
+      "path": "skills/Skill - 033 - Risk & Dependency Analyzer/SKILL.md"
+    },
+    {
+      "id": "roadmap-and-project-planner",
+      "name": "Skill - 034 - Roadmap & Project Planner",
+      "lifecycleGroup": "research-planning",
+      "executionOrder": 30,
+      "candidateIds": [
+        "22"
+      ],
+      "sourceSkillCount": 3,
+      "dependencies": [],
+      "status": "implemented",
+      "path": "skills/Skill - 034 - Roadmap & Project Planner/SKILL.md"
+    },
+    {
+      "id": "technical-research-agent",
+      "name": "Skill - 035 - Technical Research Agent",
+      "lifecycleGroup": "research-planning",
+      "executionOrder": 30,
+      "candidateIds": [
+        "17"
+      ],
+      "sourceSkillCount": 1,
+      "dependencies": [],
+      "status": "implemented",
+      "path": "skills/Skill - 035 - Technical Research Agent/SKILL.md"
+    },
+    {
+      "id": "user-approval-and-decision-manager",
+      "name": "Skill - 036 - User Approval & Decision Manager",
+      "lifecycleGroup": "research-planning",
+      "executionOrder": 30,
+      "candidateIds": [
+        "24"
+      ],
+      "sourceSkillCount": 0,
+      "dependencies": [],
+      "status": "implemented",
+      "path": "skills/Skill - 036 - User Approval & Decision Manager/SKILL.md"
+    },
+    {
+      "id": "api-and-database-specialist",
+      "name": "Skill - 037 - API & Database Specialist",
+      "lifecycleGroup": "development",
+      "executionOrder": 40,
+      "candidateIds": [
+        "30"
+      ],
+      "sourceSkillCount": 6,
+      "dependencies": [],
+      "status": "implemented",
+      "path": "skills/Skill - 037 - API & Database Specialist/SKILL.md"
+    },
+    {
+      "id": "architecture-and-design-implementation",
+      "name": "Skill - 038 - Architecture & Design Implementation",
+      "lifecycleGroup": "development",
+      "executionOrder": 40,
+      "candidateIds": [
+        "26"
+      ],
+      "sourceSkillCount": 3,
+      "dependencies": [],
+      "status": "implemented",
+      "path": "skills/Skill - 038 - Architecture & Design Implementation/SKILL.md"
+    },
+    {
+      "id": "26-backend-engineering",
+      "name": "Skill - 039 - Backend Engineering",
+      "lifecycleGroup": "development",
+      "executionOrder": 40,
+      "candidateIds": [],
+      "sourceSkillCount": 1,
+      "dependencies": [],
+      "status": "structurally_validated",
+      "path": "skills/Skill - 039 - Backend Engineering/SKILL.md"
+    },
+    {
+      "id": "backend-spring-microservices",
+      "name": "Skill - 040 - Backend Spring Microservices",
+      "lifecycleGroup": "development",
+      "executionOrder": 40,
+      "candidateIds": [],
+      "sourceSkillCount": 1,
+      "dependencies": [],
+      "status": "structurally_validated",
+      "path": "skills/Skill - 040 - Backend Spring Microservices/SKILL.md"
+    },
+    {
+      "id": "bug-diagnosis-and-repair-agent",
+      "name": "Skill - 041 - Bug Diagnosis & Repair Agent",
+      "lifecycleGroup": "development",
+      "executionOrder": 40,
+      "candidateIds": [
+        "29"
+      ],
+      "sourceSkillCount": 1,
+      "dependencies": [],
+      "status": "implemented",
+      "path": "skills/Skill - 041 - Bug Diagnosis & Repair Agent/SKILL.md"
+    },
+    {
+      "id": "code-review-and-refactoring-agent",
+      "name": "Skill - 042 - Code Review & Refactoring Agent",
+      "lifecycleGroup": "development",
+      "executionOrder": 40,
+      "candidateIds": [
+        "32"
+      ],
+      "sourceSkillCount": 3,
+      "dependencies": [],
+      "status": "implemented",
+      "path": "skills/Skill - 042 - Code Review & Refactoring Agent/SKILL.md"
+    },
+    {
+      "id": "database-initialization-and-default-data-recovery",
+      "name": "Skill - 043 - Database Initialization And Default Data Recovery",
+      "lifecycleGroup": "development",
+      "executionOrder": 40,
+      "candidateIds": [],
+      "sourceSkillCount": 1,
+      "dependencies": [],
+      "status": "structurally_validated",
+      "path": "skills/Skill - 043 - Database Initialization And Default Data Recovery/SKILL.md"
+    },
+    {
+      "id": "database-url-encryption-and-secret-protection",
+      "name": "Skill - 044 - Database Url Encryption And Secret Protection",
+      "lifecycleGroup": "development",
+      "executionOrder": 40,
+      "candidateIds": [],
+      "sourceSkillCount": 1,
+      "dependencies": [],
+      "status": "structurally_validated",
+      "path": "skills/Skill - 044 - Database Url Encryption And Secret Protection/SKILL.md"
+    },
+    {
+      "id": "22-design-system-ui-kit",
+      "name": "Skill - 045 - Design System Ui Kit",
+      "lifecycleGroup": "development",
+      "executionOrder": 40,
+      "candidateIds": [],
+      "sourceSkillCount": 1,
+      "dependencies": [],
+      "status": "structurally_validated",
+      "path": "skills/Skill - 045 - Design System Ui Kit/SKILL.md"
+    },
+    {
+      "id": "design-tokens-and-theme-management",
+      "name": "Skill - 046 - Design Tokens And Theme Management",
+      "lifecycleGroup": "development",
+      "executionOrder": 40,
+      "candidateIds": [],
+      "sourceSkillCount": 1,
+      "dependencies": [],
+      "status": "structurally_validated",
+      "path": "skills/Skill - 046 - Design Tokens And Theme Management/SKILL.md"
+    },
+    {
+      "id": "development-standards-enforcer",
+      "name": "Skill - 047 - Development Standards Enforcer",
+      "lifecycleGroup": "development",
+      "executionOrder": 40,
+      "candidateIds": [
+        "27"
+      ],
+      "sourceSkillCount": 2,
+      "dependencies": [],
+      "status": "implemented",
+      "path": "skills/Skill - 047 - Development Standards Enforcer/SKILL.md"
+    },
+    {
+      "id": "environment-and-dependency-manager",
+      "name": "Skill - 048 - Environment & Dependency Manager",
+      "lifecycleGroup": "development",
+      "executionOrder": 40,
+      "candidateIds": [
+        "25"
+      ],
+      "sourceSkillCount": 5,
+      "dependencies": [],
+      "status": "implemented",
+      "path": "skills/Skill - 048 - Environment & Dependency Manager/SKILL.md"
+    },
+    {
+      "id": "feature-implementation-agent",
+      "name": "Skill - 049 - Feature Implementation Agent",
+      "lifecycleGroup": "development",
+      "executionOrder": 40,
+      "candidateIds": [
+        "28"
+      ],
+      "sourceSkillCount": 1,
+      "dependencies": [],
+      "status": "implemented",
+      "path": "skills/Skill - 049 - Feature Implementation Agent/SKILL.md"
+    },
+    {
+      "id": "figma-design-system-engineering",
+      "name": "Skill - 050 - Figma Design System Engineering",
+      "lifecycleGroup": "development",
+      "executionOrder": 40,
+      "candidateIds": [],
+      "sourceSkillCount": 1,
+      "dependencies": [],
+      "status": "structurally_validated",
+      "path": "skills/Skill - 050 - Figma Design System Engineering/SKILL.md"
+    },
+    {
+      "id": "frontend-api-client-and-request-response-management",
+      "name": "Skill - 051 - Frontend Api Client And Request Response Management",
+      "lifecycleGroup": "development",
+      "executionOrder": 40,
+      "candidateIds": [],
+      "sourceSkillCount": 1,
+      "dependencies": [],
+      "status": "structurally_validated",
+      "path": "skills/Skill - 051 - Frontend Api Client And Request Response Management/SKILL.md"
+    },
+    {
+      "id": "frontend-architecture-and-project-structure",
+      "name": "Skill - 052 - Frontend Architecture And Project Structure",
+      "lifecycleGroup": "development",
+      "executionOrder": 40,
+      "candidateIds": [],
+      "sourceSkillCount": 1,
+      "dependencies": [],
+      "status": "structurally_validated",
+      "path": "skills/Skill - 052 - Frontend Architecture And Project Structure/SKILL.md"
+    },
+    {
+      "id": "23-frontend-engineering",
+      "name": "Skill - 053 - Frontend Engineering",
+      "lifecycleGroup": "development",
+      "executionOrder": 40,
+      "candidateIds": [],
+      "sourceSkillCount": 1,
+      "dependencies": [],
+      "status": "structurally_validated",
+      "path": "skills/Skill - 053 - Frontend Engineering/SKILL.md"
+    },
+    {
+      "id": "frontend-reactive-state-and-data-synchronization",
+      "name": "Skill - 054 - Frontend Reactive State And Data Synchronization",
+      "lifecycleGroup": "development",
+      "executionOrder": 40,
+      "candidateIds": [],
+      "sourceSkillCount": 1,
+      "dependencies": [],
+      "status": "structurally_validated",
+      "path": "skills/Skill - 054 - Frontend Reactive State And Data Synchronization/SKILL.md"
+    },
+    {
+      "id": "frontend-spa-engineering",
+      "name": "Skill - 055 - Frontend Spa Engineering",
+      "lifecycleGroup": "development",
+      "executionOrder": 40,
+      "candidateIds": [],
+      "sourceSkillCount": 1,
+      "dependencies": [],
+      "status": "structurally_validated",
+      "path": "skills/Skill - 055 - Frontend Spa Engineering/SKILL.md"
+    },
+    {
+      "id": "global-styling-and-design-rule-enforcement",
+      "name": "Skill - 056 - Global Styling And Design Rule Enforcement",
+      "lifecycleGroup": "development",
+      "executionOrder": 40,
+      "candidateIds": [],
+      "sourceSkillCount": 1,
+      "dependencies": [],
+      "status": "structurally_validated",
+      "path": "skills/Skill - 056 - Global Styling And Design Rule Enforcement/SKILL.md"
+    },
+    {
+      "id": "integration-and-compatibility-engineer",
+      "name": "Skill - 057 - Integration & Compatibility Engineer",
+      "lifecycleGroup": "development",
+      "executionOrder": 40,
+      "candidateIds": [
+        "31"
+      ],
+      "sourceSkillCount": 2,
+      "dependencies": [],
+      "status": "implemented",
+      "path": "skills/Skill - 057 - Integration & Compatibility Engineer/SKILL.md"
+    },
+    {
+      "id": "navigation-routing-and-url-design",
+      "name": "Skill - 058 - Navigation Routing And Url Design",
+      "lifecycleGroup": "development",
+      "executionOrder": 40,
+      "candidateIds": [],
+      "sourceSkillCount": 1,
+      "dependencies": [],
+      "status": "structurally_validated",
+      "path": "skills/Skill - 058 - Navigation Routing And Url Design/SKILL.md"
+    },
+    {
+      "id": "reusable-ui-kit-engineering",
+      "name": "Skill - 059 - Reusable Ui Kit Engineering",
+      "lifecycleGroup": "development",
+      "executionOrder": 40,
+      "candidateIds": [],
+      "sourceSkillCount": 1,
+      "dependencies": [],
+      "status": "structurally_validated",
+      "path": "skills/Skill - 059 - Reusable Ui Kit Engineering/SKILL.md"
+    },
+    {
+      "id": "spring-boot-backend-architecture",
+      "name": "Skill - 060 - Spring Boot Backend Architecture",
+      "lifecycleGroup": "development",
+      "executionOrder": 40,
+      "candidateIds": [],
+      "sourceSkillCount": 1,
+      "dependencies": [],
+      "status": "structurally_validated",
+      "path": "skills/Skill - 060 - Spring Boot Backend Architecture/SKILL.md"
+    },
+    {
+      "id": "ui-design-approval-and-change-control",
+      "name": "Skill - 061 - Ui Design Approval And Change Control",
+      "lifecycleGroup": "development",
+      "executionOrder": 40,
+      "candidateIds": [],
+      "sourceSkillCount": 1,
+      "dependencies": [],
+      "status": "structurally_validated",
+      "path": "skills/Skill - 061 - Ui Design Approval And Change Control/SKILL.md"
+    },
+    {
+      "id": "ui-design-plugin-and-agent-integration",
+      "name": "Skill - 062 - Ui Design Plugin And Agent Integration",
+      "lifecycleGroup": "development",
+      "executionOrder": 40,
+      "candidateIds": [],
+      "sourceSkillCount": 1,
+      "dependencies": [],
+      "status": "structurally_validated",
+      "path": "skills/Skill - 062 - Ui Design Plugin And Agent Integration/SKILL.md"
+    },
+    {
+      "id": "backend-validation-and-exception-management",
+      "name": "Skill - 063 - Backend Validation And Exception Management",
+      "lifecycleGroup": "testing",
+      "executionOrder": 50,
+      "candidateIds": [],
+      "sourceSkillCount": 1,
+      "dependencies": [],
+      "status": "structurally_validated",
+      "path": "skills/Skill - 063 - Backend Validation And Exception Management/SKILL.md"
+    },
+    {
+      "id": "54-build-test-approval-gate",
+      "name": "Skill - 064 - Build Test Approval Gate",
+      "lifecycleGroup": "testing",
+      "executionOrder": 50,
+      "candidateIds": [],
+      "sourceSkillCount": 1,
+      "dependencies": [],
+      "status": "structurally_validated",
+      "path": "skills/Skill - 064 - Build Test Approval Gate/SKILL.md"
+    },
+    {
+      "id": "design-system-compliance-and-regression-audit",
+      "name": "Skill - 065 - Design System Compliance And Regression Audit",
+      "lifecycleGroup": "testing",
+      "executionOrder": 50,
+      "candidateIds": [],
+      "sourceSkillCount": 1,
+      "dependencies": [],
+      "status": "structurally_validated",
+      "path": "skills/Skill - 065 - Design System Compliance And Regression Audit/SKILL.md"
+    },
+    {
+      "id": "end-to-end-quality-and-acceptance-management",
+      "name": "Skill - 066 - End To End Quality And Acceptance Management",
+      "lifecycleGroup": "testing",
+      "executionOrder": 50,
+      "candidateIds": [],
+      "sourceSkillCount": 1,
+      "dependencies": [],
+      "status": "structurally_validated",
+      "path": "skills/Skill - 066 - End To End Quality And Acceptance Management/SKILL.md"
+    },
+    {
+      "id": "forms-inputs-and-validation-design",
+      "name": "Skill - 067 - Forms Inputs And Validation Design",
+      "lifecycleGroup": "testing",
+      "executionOrder": 50,
+      "candidateIds": [],
+      "sourceSkillCount": 1,
+      "dependencies": [],
+      "status": "structurally_validated",
+      "path": "skills/Skill - 067 - Forms Inputs And Validation Design/SKILL.md"
+    },
+    {
+      "id": "frontend-forms-and-business-validation",
+      "name": "Skill - 068 - Frontend Forms And Business Validation",
+      "lifecycleGroup": "testing",
+      "executionOrder": 50,
+      "candidateIds": [],
+      "sourceSkillCount": 1,
+      "dependencies": [],
+      "status": "structurally_validated",
+      "path": "skills/Skill - 068 - Frontend Forms And Business Validation/SKILL.md"
+    },
+    {
+      "id": "shared-environment-test-simulation",
+      "name": "Skill - 069 - Shared Environment Test Simulation",
+      "lifecycleGroup": "testing",
+      "executionOrder": 50,
+      "candidateIds": [],
+      "sourceSkillCount": 1,
+      "dependencies": [],
+      "status": "structurally_validated",
+      "path": "skills/Skill - 069 - Shared Environment Test Simulation/SKILL.md"
+    },
+    {
+      "id": "test-account-provisioning",
+      "name": "Skill - 070 - Test Account Provisioning",
+      "lifecycleGroup": "testing",
+      "executionOrder": 50,
+      "candidateIds": [],
+      "sourceSkillCount": 1,
+      "dependencies": [],
+      "status": "structurally_validated",
+      "path": "skills/Skill - 070 - Test Account Provisioning/SKILL.md"
+    },
+    {
+      "id": "unit-test-engineering",
+      "name": "Skill - 071 - Unit Test Engineering",
+      "lifecycleGroup": "testing",
+      "executionOrder": 50,
+      "candidateIds": [],
+      "sourceSkillCount": 1,
+      "dependencies": [],
+      "status": "structurally_validated",
+      "path": "skills/Skill - 071 - Unit Test Engineering/SKILL.md"
+    },
+    {
+      "id": "email-smtp-and-otp-authentication",
+      "name": "Skill - 072 - Email Smtp And Otp Authentication",
+      "lifecycleGroup": "security",
+      "executionOrder": 60,
+      "candidateIds": [],
+      "sourceSkillCount": 1,
+      "dependencies": [],
+      "status": "structurally_validated",
+      "path": "skills/Skill - 072 - Email Smtp And Otp Authentication/SKILL.md"
+    },
+    {
+      "id": "frontend-authentication-and-route-protection",
+      "name": "Skill - 073 - Frontend Authentication And Route Protection",
+      "lifecycleGroup": "security",
+      "executionOrder": 60,
+      "candidateIds": [],
+      "sourceSkillCount": 1,
+      "dependencies": [],
+      "status": "structurally_validated",
+      "path": "skills/Skill - 073 - Frontend Authentication And Route Protection/SKILL.md"
+    },
+    {
+      "id": "automated-testing-engineer",
+      "name": "Skill - 074 - Automated Testing Engineer",
+      "lifecycleGroup": "quality",
+      "executionOrder": 70,
+      "candidateIds": [
+        "35"
+      ],
+      "sourceSkillCount": 6,
+      "dependencies": [],
+      "status": "implemented",
+      "path": "skills/Skill - 074 - Automated Testing Engineer/SKILL.md"
+    },
+    {
+      "id": "edge-case-and-randomized-testing",
+      "name": "Skill - 075 - Edge-Case & Randomized Testing",
+      "lifecycleGroup": "quality",
+      "executionOrder": 70,
+      "candidateIds": [
+        "36"
+      ],
+      "sourceSkillCount": 0,
+      "dependencies": [],
+      "status": "implemented",
+      "path": "skills/Skill - 075 - Edge-Case & Randomized Testing/SKILL.md"
+    },
+    {
+      "id": "performance-auditor",
+      "name": "Skill - 076 - Performance Auditor",
+      "lifecycleGroup": "quality",
+      "executionOrder": 70,
+      "candidateIds": [
+        "39"
+      ],
+      "sourceSkillCount": 3,
+      "dependencies": [],
+      "status": "implemented",
+      "path": "skills/Skill - 076 - Performance Auditor/SKILL.md"
+    },
+    {
+      "id": "quality-gate-and-readiness-evaluator",
+      "name": "Skill - 077 - Quality Gate & Readiness Evaluator",
+      "lifecycleGroup": "quality",
+      "executionOrder": 70,
+      "candidateIds": [
+        "42"
+      ],
+      "sourceSkillCount": 2,
+      "dependencies": [],
+      "status": "implemented",
+      "path": "skills/Skill - 077 - Quality Gate & Readiness Evaluator/SKILL.md"
+    },
+    {
+      "id": "regression-and-change-impact-analyzer",
+      "name": "Skill - 078 - Regression & Change Impact Analyzer",
+      "lifecycleGroup": "quality",
+      "executionOrder": 70,
+      "candidateIds": [
+        "40"
+      ],
+      "sourceSkillCount": 1,
+      "dependencies": [],
+      "status": "implemented",
+      "path": "skills/Skill - 078 - Regression & Change Impact Analyzer/SKILL.md"
+    },
+    {
+      "id": "requirements-to-test-traceability",
+      "name": "Skill - 079 - Requirements-to-Test Traceability",
+      "lifecycleGroup": "quality",
+      "executionOrder": 70,
+      "candidateIds": [
+        "33"
+      ],
+      "sourceSkillCount": 1,
+      "dependencies": [],
+      "status": "implemented",
+      "path": "skills/Skill - 079 - Requirements-to-Test Traceability/SKILL.md"
+    },
+    {
+      "id": "security-auditor",
+      "name": "Skill - 080 - Security Auditor",
+      "lifecycleGroup": "quality",
+      "executionOrder": 70,
+      "candidateIds": [
+        "38"
+      ],
+      "sourceSkillCount": 6,
+      "dependencies": [],
+      "status": "implemented",
+      "path": "skills/Skill - 080 - Security Auditor/SKILL.md"
+    },
+    {
+      "id": "test-failure-and-root-cause-analyzer",
+      "name": "Skill - 081 - Test Failure & Root-Cause Analyzer",
+      "lifecycleGroup": "quality",
+      "executionOrder": 70,
+      "candidateIds": [
+        "41"
+      ],
+      "sourceSkillCount": 0,
+      "dependencies": [],
+      "status": "implemented",
+      "path": "skills/Skill - 081 - Test Failure & Root-Cause Analyzer/SKILL.md"
+    },
+    {
+      "id": "test-strategy-generator",
+      "name": "Skill - 082 - Test Strategy Generator",
+      "lifecycleGroup": "quality",
+      "executionOrder": 70,
+      "candidateIds": [
+        "34"
+      ],
+      "sourceSkillCount": 2,
+      "dependencies": [],
+      "status": "implemented",
+      "path": "skills/Skill - 082 - Test Strategy Generator/SKILL.md"
+    },
+    {
+      "id": "ui-ux-and-accessibility-tester",
+      "name": "Skill - 083 - UI UX & Accessibility Tester",
+      "lifecycleGroup": "quality",
+      "executionOrder": 70,
+      "candidateIds": [
+        "37"
+      ],
+      "sourceSkillCount": 4,
+      "dependencies": [],
+      "status": "implemented",
+      "path": "skills/Skill - 083 - UI UX & Accessibility Tester/SKILL.md"
+    },
+    {
+      "id": "project-artifact-and-evidence-manager",
+      "name": "Skill - 084 - Project Artifact & Evidence Manager",
+      "lifecycleGroup": "project-knowledge",
+      "executionOrder": 80,
+      "candidateIds": [
+        "77"
+      ],
+      "sourceSkillCount": 0,
+      "dependencies": [],
+      "status": "implemented",
+      "path": "skills/Skill - 084 - Project Artifact & Evidence Manager/SKILL.md"
+    },
+    {
+      "id": "project-context-completeness-auditor",
+      "name": "Skill - 085 - Project Context Completeness Auditor",
+      "lifecycleGroup": "project-knowledge",
+      "executionOrder": 80,
+      "candidateIds": [
+        "74"
+      ],
+      "sourceSkillCount": 0,
+      "dependencies": [],
+      "status": "implemented",
+      "path": "skills/Skill - 085 - Project Context Completeness Auditor/SKILL.md"
+    },
+    {
+      "id": "project-handover-and-session-recovery-agent",
+      "name": "Skill - 086 - Project Handover & Session Recovery Agent",
+      "lifecycleGroup": "project-knowledge",
+      "executionOrder": 80,
+      "candidateIds": [
+        "76"
+      ],
+      "sourceSkillCount": 0,
+      "dependencies": [],
+      "status": "implemented",
+      "path": "skills/Skill - 086 - Project Handover & Session Recovery Agent/SKILL.md"
+    },
+    {
+      "id": "project-knowledge-ingestion-engine",
+      "name": "Skill - 087 - Project Knowledge Ingestion Engine",
+      "lifecycleGroup": "project-knowledge",
+      "executionOrder": 80,
+      "candidateIds": [
+        "73"
+      ],
+      "sourceSkillCount": 0,
+      "dependencies": [],
+      "status": "implemented",
+      "path": "skills/Skill - 087 - Project Knowledge Ingestion Engine/SKILL.md"
+    },
+    {
+      "id": "project-knowledge-synchronization-agent",
+      "name": "Skill - 088 - Project Knowledge Synchronization Agent",
+      "lifecycleGroup": "project-knowledge",
+      "executionOrder": 80,
+      "candidateIds": [
+        "75"
+      ],
+      "sourceSkillCount": 0,
+      "dependencies": [],
+      "status": "implemented",
+      "path": "skills/Skill - 088 - Project Knowledge Synchronization Agent/SKILL.md"
+    },
+    {
+      "id": "project-manifest-and-index-generator",
+      "name": "Skill - 089 - Project Manifest & Index Generator",
+      "lifecycleGroup": "project-knowledge",
+      "executionOrder": 80,
+      "candidateIds": [
+        "72"
+      ],
+      "sourceSkillCount": 0,
+      "dependencies": [],
+      "status": "implemented",
+      "path": "skills/Skill - 089 - Project Manifest & Index Generator/SKILL.md"
+    },
+    {
+      "id": "universal-project-structure-architect",
+      "name": "Skill - 090 - Universal Project Structure Architect",
+      "lifecycleGroup": "project-knowledge",
+      "executionOrder": 80,
+      "candidateIds": [
+        "71"
+      ],
+      "sourceSkillCount": 2,
+      "dependencies": [],
+      "status": "implemented",
+      "path": "skills/Skill - 090 - Universal Project Structure Architect/SKILL.md"
+    },
+    {
+      "id": "build-and-packaging-verifier",
+      "name": "Skill - 091 - Build & Packaging Verifier",
+      "lifecycleGroup": "delivery",
+      "executionOrder": 90,
+      "candidateIds": [
+        "46"
+      ],
+      "sourceSkillCount": 2,
+      "dependencies": [],
+      "status": "implemented",
+      "path": "skills/Skill - 091 - Build & Packaging Verifier/SKILL.md"
+    },
+    {
+      "id": "deployment-and-environment-engineer",
+      "name": "Skill - 092 - Deployment & Environment Engineer",
+      "lifecycleGroup": "delivery",
+      "executionOrder": 90,
+      "candidateIds": [
+        "47"
+      ],
+      "sourceSkillCount": 6,
+      "dependencies": [],
+      "status": "implemented",
+      "path": "skills/Skill - 092 - Deployment & Environment Engineer/SKILL.md"
+    },
+    {
+      "id": "documentation-generator",
+      "name": "Skill - 093 - Documentation Generator",
+      "lifecycleGroup": "delivery",
+      "executionOrder": 90,
+      "candidateIds": [
+        "43"
+      ],
+      "sourceSkillCount": 2,
+      "dependencies": [],
+      "status": "implemented",
+      "path": "skills/Skill - 093 - Documentation Generator/SKILL.md"
+    },
+    {
+      "id": "documentation-synchronization",
+      "name": "Skill - 094 - Documentation Synchronization",
+      "lifecycleGroup": "delivery",
+      "executionOrder": 90,
+      "candidateIds": [
+        "44"
+      ],
+      "sourceSkillCount": 1,
+      "dependencies": [],
+      "status": "implemented",
+      "path": "skills/Skill - 094 - Documentation Synchronization/SKILL.md"
+    },
+    {
+      "id": "final-project-completion-auditor",
+      "name": "Skill - 095 - Final Project Completion Auditor",
+      "lifecycleGroup": "delivery",
+      "executionOrder": 90,
+      "candidateIds": [
+        "50"
+      ],
+      "sourceSkillCount": 0,
+      "dependencies": [],
+      "status": "implemented",
+      "path": "skills/Skill - 095 - Final Project Completion Auditor/SKILL.md"
+    },
+    {
+      "id": "production-build-and-artifact-management",
+      "name": "Skill - 096 - Production Build And Artifact Management",
+      "lifecycleGroup": "delivery",
+      "executionOrder": 90,
+      "candidateIds": [],
+      "sourceSkillCount": 1,
+      "dependencies": [],
+      "status": "structurally_validated",
+      "path": "skills/Skill - 096 - Production Build And Artifact Management/SKILL.md"
+    },
+    {
+      "id": "production-environment-and-deployment-engineering",
+      "name": "Skill - 097 - Production Environment And Deployment Engineering",
+      "lifecycleGroup": "delivery",
+      "executionOrder": 90,
+      "candidateIds": [],
+      "sourceSkillCount": 1,
+      "dependencies": [],
+      "status": "structurally_validated",
+      "path": "skills/Skill - 097 - Production Environment And Deployment Engineering/SKILL.md"
+    },
+    {
+      "id": "project-report-and-diagram-generator",
+      "name": "Skill - 098 - Project Report & Diagram Generator",
+      "lifecycleGroup": "delivery",
+      "executionOrder": 90,
+      "candidateIds": [
+        "45"
+      ],
+      "sourceSkillCount": 0,
+      "dependencies": [],
+      "status": "implemented",
+      "path": "skills/Skill - 098 - Project Report & Diagram Generator/SKILL.md"
+    },
+    {
+      "id": "release-and-rollback-manager",
+      "name": "Skill - 099 - Release & Rollback Manager",
+      "lifecycleGroup": "delivery",
+      "executionOrder": 90,
+      "candidateIds": [
+        "48"
+      ],
+      "sourceSkillCount": 1,
+      "dependencies": [],
+      "status": "implemented",
+      "path": "skills/Skill - 099 - Release & Rollback Manager/SKILL.md"
+    },
+    {
+      "id": "52-terminal-session-build-run-manager",
+      "name": "Skill - 100 - Terminal Session Build Run Manager",
+      "lifecycleGroup": "delivery",
+      "executionOrder": 90,
+      "candidateIds": [],
+      "sourceSkillCount": 1,
+      "dependencies": [],
+      "status": "structurally_validated",
+      "path": "skills/Skill - 100 - Terminal Session Build Run Manager/SKILL.md"
+    },
+    {
+      "id": "user-acceptance-and-sign-off-manager",
+      "name": "Skill - 101 - User Acceptance & Sign-Off Manager",
+      "lifecycleGroup": "delivery",
+      "executionOrder": 90,
+      "candidateIds": [
+        "49"
+      ],
+      "sourceSkillCount": 0,
+      "dependencies": [],
+      "status": "implemented",
+      "path": "skills/Skill - 101 - User Acceptance & Sign-Off Manager/SKILL.md"
+    },
+    {
+      "id": "release-and-version-history-manager",
+      "name": "Skill - 102 - Release & Version History Manager",
+      "lifecycleGroup": "roadmap-release",
+      "executionOrder": 100,
+      "candidateIds": [
+        "79"
+      ],
+      "sourceSkillCount": 0,
+      "dependencies": [],
+      "status": "implemented",
+      "path": "skills/Skill - 102 - Release & Version History Manager/SKILL.md"
+    },
+    {
+      "id": "roadmap-and-future-feature-manager",
+      "name": "Skill - 103 - Roadmap & Future Feature Manager",
+      "lifecycleGroup": "roadmap-release",
+      "executionOrder": 100,
+      "candidateIds": [
+        "78"
+      ],
+      "sourceSkillCount": 0,
+      "dependencies": [],
+      "status": "implemented",
+      "path": "skills/Skill - 103 - Roadmap & Future Feature Manager/SKILL.md"
+    },
+    {
+      "id": "unified-project-status-and-next-step-generator",
+      "name": "Skill - 104 - Unified Project Status & Next-Step Generator",
+      "lifecycleGroup": "roadmap-release",
+      "executionOrder": 100,
+      "candidateIds": [
+        "80"
+      ],
+      "sourceSkillCount": 0,
+      "dependencies": [],
+      "status": "implemented",
+      "path": "skills/Skill - 104 - Unified Project Status & Next-Step Generator/SKILL.md"
+    },
+    {
+      "id": "automated-backlog-generator",
+      "name": "Skill - 105 - Automated Backlog Generator",
+      "lifecycleGroup": "maintenance",
+      "executionOrder": 110,
+      "candidateIds": [
+        "62"
+      ],
+      "sourceSkillCount": 0,
+      "dependencies": [],
+      "status": "implemented",
+      "path": "skills/Skill - 105 - Automated Backlog Generator/SKILL.md"
+    },
+    {
+      "id": "automation-cost-and-performance-optimizer",
+      "name": "Skill - 106 - Automation Cost & Performance Optimizer",
+      "lifecycleGroup": "maintenance",
+      "executionOrder": 110,
+      "candidateIds": [
+        "67"
+      ],
+      "sourceSkillCount": 0,
+      "dependencies": [],
+      "status": "implemented",
+      "path": "skills/Skill - 106 - Automation Cost & Performance Optimizer/SKILL.md"
+    },
+    {
+      "id": "continuous-improvement-planner",
+      "name": "Skill - 107 - Continuous Improvement Planner",
+      "lifecycleGroup": "maintenance",
+      "executionOrder": 110,
+      "candidateIds": [
+        "70"
+      ],
+      "sourceSkillCount": 1,
+      "dependencies": [],
+      "status": "implemented",
+      "path": "skills/Skill - 107 - Continuous Improvement Planner/SKILL.md"
+    },
+    {
+      "id": "continuous-project-auditor",
+      "name": "Skill - 108 - Continuous Project Auditor",
+      "lifecycleGroup": "maintenance",
+      "executionOrder": 110,
+      "candidateIds": [
+        "63"
+      ],
+      "sourceSkillCount": 0,
+      "dependencies": [],
+      "status": "implemented",
+      "path": "skills/Skill - 108 - Continuous Project Auditor/SKILL.md"
+    },
+    {
+      "id": "dependency-and-compatibility-monitor",
+      "name": "Skill - 109 - Dependency & Compatibility Monitor",
+      "lifecycleGroup": "maintenance",
+      "executionOrder": 110,
+      "candidateIds": [
+        "64"
+      ],
+      "sourceSkillCount": 3,
+      "dependencies": [],
+      "status": "implemented",
+      "path": "skills/Skill - 109 - Dependency & Compatibility Monitor/SKILL.md"
+    },
+    {
+      "id": "incident-and-error-trend-analyzer",
+      "name": "Skill - 110 - Incident & Error Trend Analyzer",
+      "lifecycleGroup": "maintenance",
+      "executionOrder": 110,
+      "candidateIds": [
+        "65"
+      ],
+      "sourceSkillCount": 3,
+      "dependencies": [],
+      "status": "implemented",
+      "path": "skills/Skill - 110 - Incident & Error Trend Analyzer/SKILL.md"
+    },
+    {
+      "id": "project-health-dashboard",
+      "name": "Skill - 111 - Project Health Dashboard",
+      "lifecycleGroup": "maintenance",
+      "executionOrder": 110,
+      "candidateIds": [
+        "61"
+      ],
+      "sourceSkillCount": 0,
+      "dependencies": [],
+      "status": "implemented",
+      "path": "skills/Skill - 111 - Project Health Dashboard/SKILL.md"
+    },
+    {
+      "id": "project-learning-and-lessons-manager",
+      "name": "Skill - 112 - Project Learning & Lessons Manager",
+      "lifecycleGroup": "maintenance",
+      "executionOrder": 110,
+      "candidateIds": [
+        "68"
+      ],
+      "sourceSkillCount": 0,
+      "dependencies": [],
+      "status": "implemented",
+      "path": "skills/Skill - 112 - Project Learning & Lessons Manager/SKILL.md"
+    },
+    {
+      "id": "project-lifecycle-reassessment",
+      "name": "Skill - 113 - Project Lifecycle Reassessment",
+      "lifecycleGroup": "maintenance",
+      "executionOrder": 110,
+      "candidateIds": [
+        "69"
+      ],
+      "sourceSkillCount": 0,
+      "dependencies": [],
+      "status": "implemented",
+      "path": "skills/Skill - 113 - Project Lifecycle Reassessment/SKILL.md"
+    },
+    {
+      "id": "skill-evaluation-and-improvement",
+      "name": "Skill - 114 - Skill Evaluation & Improvement",
+      "lifecycleGroup": "maintenance",
+      "executionOrder": 110,
+      "candidateIds": [
+        "66"
+      ],
+      "sourceSkillCount": 0,
+      "dependencies": [],
+      "status": "implemented",
+      "path": "skills/Skill - 114 - Skill Evaluation & Improvement/SKILL.md"
+    },
+    {
+      "id": "approval-and-permission-controller",
+      "name": "Skill - 115 - Approval & Permission Controller",
+      "lifecycleGroup": "automation",
+      "executionOrder": 120,
+      "candidateIds": [
+        "57"
+      ],
+      "sourceSkillCount": 0,
+      "dependencies": [],
+      "status": "implemented",
+      "path": "skills/Skill - 115 - Approval & Permission Controller/SKILL.md"
+    },
+    {
+      "id": "automation-workflow-designer",
+      "name": "Skill - 116 - Automation Workflow Designer",
+      "lifecycleGroup": "automation",
+      "executionOrder": 120,
+      "candidateIds": [
+        "52"
+      ],
+      "sourceSkillCount": 4,
+      "dependencies": [],
+      "status": "implemented",
+      "path": "skills/Skill - 116 - Automation Workflow Designer/SKILL.md"
+    },
+    {
+      "id": "cross-project-reuse-and-knowledge-manager",
+      "name": "Skill - 117 - Cross-Project Reuse & Knowledge Manager",
+      "lifecycleGroup": "automation",
+      "executionOrder": 120,
+      "candidateIds": [
+        "60"
+      ],
+      "sourceSkillCount": 0,
+      "dependencies": [],
+      "status": "implemented",
+      "path": "skills/Skill - 117 - Cross-Project Reuse & Knowledge Manager/SKILL.md"
+    },
+    {
+      "id": "event-and-scheduled-trigger-manager",
+      "name": "Skill - 118 - Event & Scheduled Trigger Manager",
+      "lifecycleGroup": "automation",
+      "executionOrder": 120,
+      "candidateIds": [
+        "59"
+      ],
+      "sourceSkillCount": 0,
+      "dependencies": [],
+      "status": "implemented",
+      "path": "skills/Skill - 118 - Event & Scheduled Trigger Manager/SKILL.md"
+    },
+    {
+      "id": "logs-audit-trail-and-reporting",
+      "name": "Skill - 119 - Logs, Audit Trail & Reporting",
+      "lifecycleGroup": "automation",
+      "executionOrder": 120,
+      "candidateIds": [
+        "58"
+      ],
+      "sourceSkillCount": 3,
+      "dependencies": [],
+      "status": "implemented",
+      "path": "skills/Skill - 119 - Logs, Audit Trail & Reporting/SKILL.md"
+    },
+    {
+      "id": "mcp-integration-specialist",
+      "name": "Skill - 120 - MCP Integration Specialist",
+      "lifecycleGroup": "automation",
+      "executionOrder": 120,
+      "candidateIds": [
+        "51"
+      ],
+      "sourceSkillCount": 1,
+      "dependencies": [],
+      "status": "implemented",
+      "path": "skills/Skill - 120 - MCP Integration Specialist/SKILL.md"
+    },
+    {
+      "id": "parallel-agent-coordinator",
+      "name": "Skill - 121 - Parallel Agent Coordinator",
+      "lifecycleGroup": "automation",
+      "executionOrder": 120,
+      "candidateIds": [
+        "54"
+      ],
+      "sourceSkillCount": 0,
+      "dependencies": [],
+      "status": "implemented",
+      "path": "skills/Skill - 121 - Parallel Agent Coordinator/SKILL.md"
+    },
+    {
+      "id": "skill-selection-and-orchestration-engine",
+      "name": "Skill - 122 - Skill Selection & Orchestration Engine",
+      "lifecycleGroup": "automation",
+      "executionOrder": 120,
+      "candidateIds": [
+        "53"
+      ],
+      "sourceSkillCount": 2,
+      "dependencies": [],
+      "status": "implemented",
+      "path": "skills/Skill - 122 - Skill Selection & Orchestration Engine/SKILL.md"
+    },
+    {
+      "id": "task-queue-and-dependency-scheduler",
+      "name": "Skill - 123 - Task Queue & Dependency Scheduler",
+      "lifecycleGroup": "automation",
+      "executionOrder": 120,
+      "candidateIds": [
+        "55"
+      ],
+      "sourceSkillCount": 1,
+      "dependencies": [],
+      "status": "implemented",
+      "path": "skills/Skill - 123 - Task Queue & Dependency Scheduler/SKILL.md"
+    },
+    {
+      "id": "workflow-failure-and-recovery-manager",
+      "name": "Skill - 124 - Workflow Failure & Recovery Manager",
+      "lifecycleGroup": "automation",
+      "executionOrder": 120,
+      "candidateIds": [
+        "56"
+      ],
+      "sourceSkillCount": 1,
+      "dependencies": [],
+      "status": "implemented",
+      "path": "skills/Skill - 124 - Workflow Failure & Recovery Manager/SKILL.md"
+    }
+  ]
+}

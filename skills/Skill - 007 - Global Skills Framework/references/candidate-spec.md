@@ -1,0 +1,8 @@
+# Source candidate specification
+
+- **Purpose/problem; goal/outcome:** Inconsistent skill structure and discovery impede reuse; define common metadata, lifecycle, invocation, versioning, documentation, and validation rules so skills are interoperable.
+- **Behavior; activation/non-activation:** Establish the contract, examples, compatibility policy, and deprecation path when creating or changing the library; do not make project-specific feature decisions.
+- **Inputs/tools/dependencies/handoff:** Platform conventions, current authoring rules, validator behavior, candidate requirements; Markdown/YAML, repository validator; depends 02 and 57; hands contracts to all skill authors and 53.
+- **Procedure/decision:** 1) Compare platform requirements with repository format. 2) Inventory current fields and validator checks. 3) Propose a versioned schema and compatibility tests. 4) If platform constraints conflict, record the conflict and request review rather than silently changing the schema.
+- **Outputs/acceptance/failure:** Schema, template, lifecycle/version rules, compatibility report; pass when fixtures cover required/invalid metadata and platform behavior. Preserve current format if validation fails; do not migrate skills automatically.
+- **Security/example/evidence/maintenance:** Limit metadata to non-sensitive descriptions; approval required for breaking schema changes. Example: a skill author submits a missing description; validator rejects it with the field named. **Status:** partial—authoring guide and structural validator exist, but lifecycle/runtime compatibility evidence is absent. Recheck on platform schema changes.
