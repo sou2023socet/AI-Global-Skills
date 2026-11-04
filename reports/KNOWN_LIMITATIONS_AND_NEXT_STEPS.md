@@ -2,8 +2,11 @@
 
 - Canonical packages are reusable instruction contracts, not autonomous
   executors.
-- The 124 active canonical skills are structurally validated; functional and
+- The 125 active canonical skills are structurally validated; functional and
   platform verification remains unrun.
+- The Universal Project Structure & Governance skill's five requested
+  application scenarios remain `NOT_TESTED`; its structural validation does
+  not establish functional effectiveness.
 - All 143 source skills have a hashed, traceable canonical destination. The
   143 `legacy-*` folders remain source-preserving provenance copies and are not
   active registry records.
@@ -12,6 +15,7 @@
   before future deprecation.
 - Dependency edges remain conservative. The graph is cycle-checked, but
   domain-specific optional dependencies may still need owner enrichment.
-- The release archive is verified for required file presence and forbidden
-  metadata, not execution on every host.
+- The previously generated release archive is not refreshed for the latest
+  skill update; its earlier verification does not cover current workspace
+  changes.
 - License ownership and runtime effectiveness were not independently verified.

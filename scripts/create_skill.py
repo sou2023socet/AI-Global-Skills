@@ -108,8 +108,9 @@ def allocate_name(purpose: str, registry: dict[str, object]) -> tuple[str, str, 
     return name, re.sub(r"[^a-z0-9]+", "-", purpose.casefold()).strip("-"), number
 
 
-def make_skill_text(name: str, description: str) -> str:
+def make_skill_text(name: str, description: str, skill_id: str) -> str:
     template = TEMPLATE.read_text(encoding="utf-8-sig")
+    template = template.replace("name: Skill - NNN - Skill Purpose", f"id: {skill_id}\nname: Skill - NNN - Skill Purpose")
     text = template.replace("Skill - NNN - Skill Purpose", name)
     text = text.replace("Describe the skill purpose and when it should be used.", description)
     return text
@@ -185,7 +186,7 @@ def _main() -> int:
     staged_package = staging / name
     staged_package.mkdir()
     try:
-        (staged_package / "SKILL.md").write_text(make_skill_text(name, description), encoding="utf-8")
+        (staged_package / "SKILL.md").write_text(make_skill_text(name, description, skill_id), encoding="utf-8")
         records.append(record)
         records.sort(key=lambda item: (item["executionOrder"], item["name"]))
         source_registry["skills"].append(source_record)

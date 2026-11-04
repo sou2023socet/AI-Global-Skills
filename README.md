@@ -6,7 +6,7 @@ context and preserves the two source libraries as provenance-only inputs.
 
 ## What is implemented
 
-- 124 active canonical skill packages under [`skills/`](./skills/), including
+- 125 active canonical skill packages under [`skills/`](./skills/), including
   80 candidate-linked capabilities and 41 source-promoted specializations.
 - 143 source-preserving packages are included in the same numbered skill
   directory convention; their registry records identify them as provenance
@@ -84,7 +84,7 @@ repositories were not edited, renamed, deleted, or overwritten. See
 
 | Path | Responsibility |
 |---|---|
-| `skills/` | Candidate-linked reusable instruction packages |
+| `skills/` | Candidate-linked reusable instruction packages, including [Universal Project Structure & Governance](./skills/Skill%20-%20268%20-%20Universal%20Project%20Structure%20%26%20Governance/SKILL.md) |
 | `registry/` | Machine-readable catalogue and candidate crosswalk |
 | `workflows/` | Composable lifecycle contracts |
 | `orchestration/` | Selection and failure-closed execution rules |

@@ -1,8 +1,8 @@
 {
   "version": "2.0",
   "description": "Authoritative ordered index of active canonical capabilities.",
-  "skillCount": 124,
-  "sourceSkillCount": 143,
+  "skillCount": 125,
+  "sourceSkillCount": 144,
   "skills": [
     {
       "id": "advanced-inputs-and-data-formatting",
@@ -1091,6 +1091,27 @@
       "dependencies": [],
       "status": "implemented",
       "path": "skills/Skill - 090 - Universal Project Structure Architect/SKILL.md"
+    },
+    {
+      "id": "skill-universal-project-structure-governance",
+      "name": "Skill - 268 - Universal Project Structure & Governance",
+      "lifecycleGroup": "project-knowledge",
+      "executionOrder": 80,
+      "candidateIds": [],
+      "sourceSkillCount": 1,
+      "dependencies": [
+        "project-context-analyzer",
+        "project-registry",
+        "reverse-engineering-and-code-archaeology",
+        "requirements-engineering",
+        "roadmap-and-project-planner",
+        "evidence-and-status-engine",
+        "project-artifact-and-evidence-manager",
+        "documentation-synchronization",
+        "universal-project-structure-architect"
+      ],
+      "status": "structurally_validated",
+      "path": "skills/Skill - 268 - Universal Project Structure & Governance/SKILL.md"
     },
     {
       "id": "build-and-packaging-verifier",

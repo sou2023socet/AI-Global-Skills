@@ -1578,6 +1578,16 @@
       "disposition": "merged-into-canonical",
       "promotionStatus": "canonical",
       "canonicalSkillId": "environment-and-dependency-manager"
+    },
+    {
+      "id": "local-skill-universal-project-structure-governance",
+      "name": "Universal Project Structure & Governance",
+      "repository": "sou2023socet/AI-Global-Skills",
+      "sourcePath": "README.md",
+      "canonicalPath": "skills/Skill - 268 - Universal Project Structure & Governance/SKILL.md",
+      "disposition": "promoted-to-canonical",
+      "promotionStatus": "canonical",
+      "canonicalSkillId": "skill-universal-project-structure-governance"
     }
   ]
 }

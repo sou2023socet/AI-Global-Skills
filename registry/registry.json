@@ -6956,9 +6956,11 @@
       },
       "implementationKind": "skill",
       "lifecycleGroup": "project-knowledge",
-      "purpose": "Execute the evidence-based candidate contract for Universal Project Structure Architect.",
+      "purpose": "Recommend an evidence-based repository structure aligned to the selected SDLC model, project evidence, technology, scale, team ownership, and current conventions.",
       "triggers": [
-        "task explicitly requires universal project structure architect"
+        "designing or revising repository structure",
+        "aligning project folders and artifacts to an SDLC model",
+        "mapping lifecycle phases to project artifacts"
       ],
       "nonTriggers": [
         "unrelated work",
@@ -7026,7 +7028,117 @@
       "executionOrder": 80,
       "canonical": true,
       "path": "skills/Skill - 090 - Universal Project Structure Architect/SKILL.md",
-      "description": "Execute the evidence-based candidate contract for Universal Project Structure Architect."
+      "description": "Recommend a repository structure aligned to the selected SDLC model, project evidence, technology, scale, team ownership, and current conventions."
+    },
+    {
+      "id": "skill-universal-project-structure-governance",
+      "name": "Skill - 268 - Universal Project Structure & Governance",
+      "version": "1.0.0",
+      "contractVersion": "1.0",
+      "status": "structurally_validated",
+      "verification": {
+        "structural": "passed",
+        "functional": "not-run",
+        "platform": "not-run"
+      },
+      "implementationKind": "skill",
+      "lifecycleGroup": "project-knowledge",
+      "purpose": "Establish an adaptable project structure, folder responsibilities, evidence-backed status, lifecycle workflows, and project knowledge standards for software, AI, research, and automation projects.",
+      "description": "Establish an adaptable project structure, folder responsibilities, evidence-backed status, lifecycle workflows, and project knowledge standards for software, AI, research, and automation projects.",
+      "triggers": [
+        "initializing or adapting a project structure",
+        "project information architecture and governance",
+        "project status, lifecycle, index, or handover standards"
+      ],
+      "nonTriggers": [
+        "unrelated work",
+        "missing project identity",
+        "permission bypass"
+      ],
+      "provenance": [
+        {
+          "repository": "sou2023socet/AI-Global-Skills",
+          "path": "README.md",
+          "reviewStatus": "unknown"
+        }
+      ],
+      "dependencies": [
+        {
+          "skillId": "project-context-analyzer",
+          "required": false,
+          "handoff": "Resolve project identity, repositories, scope, and freshness before structuring."
+        },
+        {
+          "skillId": "project-registry",
+          "required": false,
+          "handoff": "Resolve canonical project and repository identity where ambiguity exists."
+        },
+        {
+          "skillId": "reverse-engineering-and-code-archaeology",
+          "required": false,
+          "handoff": "Recover an evidence-backed as-built map when project documentation is incomplete."
+        },
+        {
+          "skillId": "requirements-engineering",
+          "required": false,
+          "handoff": "Establish requirement ownership and traceability for project artifacts."
+        },
+        {
+          "skillId": "roadmap-and-project-planner",
+          "required": false,
+          "handoff": "Sequence approved structure changes and lifecycle milestones."
+        },
+        {
+          "skillId": "evidence-and-status-engine",
+          "required": false,
+          "handoff": "Keep project statuses and completion claims tied to current evidence."
+        },
+        {
+          "skillId": "project-artifact-and-evidence-manager",
+          "required": false,
+          "handoff": "Register, classify, and link canonical project artifacts and evidence."
+        },
+        {
+          "skillId": "documentation-synchronization",
+          "required": false,
+          "handoff": "Identify and synchronize documentation affected by project changes."
+        },
+        {
+          "skillId": "universal-project-structure-architect",
+          "required": false,
+          "handoff": "Compare evidence-based repository structure alternatives without duplicating this lifecycle artifact contract."
+        }
+      ],
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "capabilityResult",
+          "description": "Actionable result with evidence and limitations.",
+          "required": true,
+          "sensitivity": "internal"
+        }
+      ],
+      "tools": [
+        {
+          "name": "repository-inspection-and-approved-project-tools",
+          "permission": "read-only",
+          "requiresApproval": false,
+          "sideEffects": "none by default"
+        }
+      ],
+      "validationCriteria": [
+        {
+          "criterion": "Package metadata, procedure, and registry path are structurally valid.",
+          "evidenceType": "static"
+        }
+      ],
+      "candidateIds": [],
+      "sourceSkillIds": [
+        "local-skill-universal-project-structure-governance"
+      ],
+      "executionOrder": 80,
+      "canonical": true,
+      "path": "skills/Skill - 268 - Universal Project Structure & Governance/SKILL.md"
     },
     {
       "id": "build-and-packaging-verifier",
